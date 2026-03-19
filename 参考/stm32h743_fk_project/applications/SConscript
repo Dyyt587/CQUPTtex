@@ -1,0 +1,29 @@
+import rtconfig
+from building import *
+
+cwd     = GetCurrentDir()
+src     = Split("""
+main.c
+
+key.c
+usart_dataparsing.c
+pwm.c
+wireless_communicate.c
+hipnuc_dec.c
+drv_ms4010.c
+ms4010_simple_test.c
+ms4010_multi_test.c
+laser_gimbal.c
+laser_gimbal_test.c
+laser_gimbal_vision_tracker.c
+laser_gimbal_vision_test.c
+""")
+
+path = [cwd]
+path += [cwd + '/chassis']
+path += [cwd + '/meArm']
+path += [cwd + '/motor']
+path += [cwd + '/commands']
+group = DefineGroup('Applications', src, CPPPATH = path,depend = [''])
+
+Return('group')
