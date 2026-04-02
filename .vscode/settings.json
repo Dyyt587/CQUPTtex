@@ -1,5 +1,7 @@
 {
     "latex-workshop.latex.rootFile": "${workspaceFolder}/main.tex",
+    "latex-workshop.latex.recipe.default": "first",
+    "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.recipes": [
         {
             "name": "xelatex -> bibtex -> xelatex*2",

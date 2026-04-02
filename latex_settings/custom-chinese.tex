@@ -6,8 +6,59 @@
 \usepackage[noend]{algpseudocode} %绘制伪代码
 \usepackage{algorithmicx,algorithm}
 \usepackage{pythonhighlight} %python代码高亮
-\usepackage[unicode=true,colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=green]{hyperref}%引用参考文献、章节、图表，并跳转
-\hypersetup{bookmarksnumbered=true,bookmarksopen=true}
+
+% ===== 代码样式配置 =====
+\lstdefinestyle{cstyle}{
+  language=C,
+  basicstyle=\small\ttfamily,
+  keywordstyle=\color{blue}\bfseries,
+  commentstyle=\color{green!50!black}\itshape,
+  stringstyle=\color{red!60!black},
+  numberstyle=\tiny\color{gray},
+  numbers=left,
+  stepnumber=1,
+  numbersep=8pt,
+  showstringspaces=false,
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=single,
+  framerule=0.5pt,
+  rulecolor=\color{gray!40},
+  backgroundcolor=\color{gray!5},
+  tabsize=4,
+  captionpos=b,
+  xleftmargin=2em,
+  xrightmargin=0.5em,
+  aboveskip=0.8em,
+  belowskip=0.8em,
+}
+\lstdefinestyle{pythonstyle}{
+  language=Python,
+  basicstyle=\small\ttfamily,
+  keywordstyle=\color{blue}\bfseries,
+  commentstyle=\color{green!50!black}\itshape,
+  stringstyle=\color{red!60!black},
+  numberstyle=\tiny\color{gray},
+  numbers=left,
+  stepnumber=1,
+  numbersep=8pt,
+  showstringspaces=false,
+  breaklines=true,
+  frame=single,
+  framerule=0.5pt,
+  rulecolor=\color{gray!40},
+  backgroundcolor=\color{gray!5},
+  tabsize=4,
+  captionpos=b,
+  xleftmargin=2em,
+  xrightmargin=0.5em,
+  aboveskip=0.8em,
+  belowskip=0.8em,
+}
+\renewcommand{\lstlistingname}{代码}
+\usepackage[unicode=true,colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black]{hyperref}%引用参考文献、章节、图表，并跳转
+\hypersetup{bookmarksnumbered=true,bookmarksopen=true,citecolor=black}
+\AtBeginDocument{\hypersetup{citecolor=black}}
 \usepackage{caption}
 \captionsetup[figure]{font=small,labelsep=space} 
 \captionsetup[table]{font=small,labelsep=space} %图片和表格修改caption

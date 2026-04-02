@@ -1,27 +1,61 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章\hspace  {.3em}}硬件详细设计}{10}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章\hspace  {.3em}}软件设计}{19}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}单片机控制核心电路}{10}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}IMU数据采集电路}{10}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}IMU内部结构与工作模式}{10}{subsection.4.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}IMU时序与采样配置}{10}{subsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}IMU接口连接与抗干扰设计}{10}{subsection.4.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}图像采集与通信电路}{11}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}USB摄像头接入原理}{11}{subsection.4.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}图像数据链路设计}{11}{subsection.4.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}云台驱动与电机控制电路}{11}{section.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}电机驱动原理}{11}{subsection.4.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}PWM与电源设计}{11}{subsection.4.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}人机交互与保护电路}{11}{section.4.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}状态指示与报警模块}{11}{subsection.4.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}控制按键与急停逻辑}{11}{subsection.4.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}系统硬件联调与整机连接图}{12}{section.4.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}本章小结}{12}{section.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}软件总体架构与流程}{19}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}程序分层与任务划分}{19}{subsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}软件主流程图}{20}{subsection.4.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 系统总体程序流程图}}{20}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:program-flow}{{4.1}{20}{系统总体程序流程图}{figure.caption.15}{}}
+\citation{Han2009ADRC,Han2008ADRCBook}
+\citation{Han2002ADRCChinese,Mahony2008IMU}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}IMU数据处理程序}{21}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}数据采集与滤波}{21}{subsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}姿态解算与角速度发布}{21}{subsection.4.2.2}\protected@file@percent }
+\newlabel{eq:imu-feedforward}{{4.1}{21}{姿态解算与角速度发布}{equation.4.1}{}}
+\newlabel{code:track-thread}{{4.1}{21}{视觉追踪线程与IMU前馈补偿（laser\_gimbal\_vision\_tracker.c）}{lstlisting.4.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces 视觉追踪线程与IMU前馈补偿（laser\_gimbal\_vision\_tracker.c）}}{21}{lstlisting.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}视觉识别与跟踪程序}{22}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}视觉线程架构与数据流}{22}{subsection.4.3.1}\protected@file@percent }
+\newlabel{code:read-thread}{{4.2}{23}{视觉读取线程（EDC\_Opencv.py）}{lstlisting.4.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces 视觉读取线程（EDC\_Opencv.py）}}{23}{lstlisting.4.2}\protected@file@percent }
+\newlabel{code:send-thread}{{4.3}{23}{视觉发送线程与串口协议帧（EDC\_Opencv.py）}{lstlisting.4.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces 视觉发送线程与串口协议帧（EDC\_Opencv.py）}}{23}{lstlisting.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}目标检测与几何筛选流程}{24}{subsection.4.3.2}\protected@file@percent }
+\newlabel{code:a4-filter}{{4.4}{24}{A4目标PnP尺寸筛选（EDC\_Opencv.py）}{lstlisting.4.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces A4目标PnP尺寸筛选（EDC\_Opencv.py）}}{24}{lstlisting.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}PnP位姿解算与目标量生成}{25}{subsection.4.3.3}\protected@file@percent }
+\newlabel{eq:tvec}{{4.2}{25}{PnP位姿解算与目标量生成}{equation.4.2}{}}
+\newlabel{eq:pan-tilt-angle}{{4.3}{25}{PnP位姿解算与目标量生成}{equation.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}丢失重捕获与串口通信协议}{25}{subsection.4.3.4}\protected@file@percent }
+\newlabel{code:uart-parser}{{4.5}{26}{串口协议帧解析状态机（usart\_dataparsing.c）}{lstlisting.4.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.5}{\ignorespaces 串口协议帧解析状态机（usart\_dataparsing.c）}}{26}{lstlisting.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}双闭环控制程序设计}{27}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}像素误差外环PID}{27}{subsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}IMU角速度前馈内环}{27}{subsection.4.4.2}\protected@file@percent }
+\newlabel{code:vision-process}{{4.6}{27}{视觉追踪像素误差到APID控制输出（laser\_gimbal\_vision\_tracker.c）}{lstlisting.4.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.6}{\ignorespaces 视觉追踪像素误差到APID控制输出（laser\_gimbal\_vision\_tracker.c）}}{27}{lstlisting.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}通信与上位机控制程序}{28}{section.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}USB-CDC通信协议}{28}{subsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Linux端控制界面与参数下发}{29}{subsection.4.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}系统主控程序设计与异常处理}{29}{section.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}差速底盘工程的软件实现}{29}{section.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}控制主循环与运行模式}{29}{subsection.4.7.1}\protected@file@percent }
+\newlabel{code:chassis-irq}{{4.7}{30}{底盘定时中断控制主循环（control.c）}{lstlisting.4.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.7}{\ignorespaces 底盘定时中断控制主循环（control.c）}}{30}{lstlisting.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}红外循迹与路口判别策略}{31}{subsection.4.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}固定圈速实现与圈数管理}{31}{subsection.4.7.3}\protected@file@percent }
+\citation{Siegwart2011robots,Cai2015Robotics}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}差速运动学与轮速闭环}{32}{subsection.4.7.4}\protected@file@percent }
+\newlabel{eq:diff-kinematics}{{4.4}{32}{差速运动学与轮速闭环}{equation.4.4}{}}
+\newlabel{code:chassis-pi}{{4.8}{32}{差速运动学分解与增量式PI调速（control.c）}{lstlisting.4.8}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.8}{\ignorespaces 差速运动学分解与增量式PI调速（control.c）}}{32}{lstlisting.4.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.5}作为系统子模块的协同与可靠性优势}{33}{subsection.4.7.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}本章小结}{33}{section.4.8}\protected@file@percent }
 \@setckpt{chapters/chapter04}{
-\setcounter{page}{13}
-\setcounter{equation}{0}
+\setcounter{page}{34}
+\setcounter{equation}{4}
 \setcounter{enumi}{4}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
@@ -30,12 +64,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{4}
-\setcounter{section}{7}
+\setcounter{section}{8}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{1}
 \setcounter{table}{0}
 \setcounter{ALG@line}{0}
 \setcounter{ALG@rem}{0}
@@ -46,13 +80,13 @@
 \setcounter{ALG@tmpcounter}{0}
 \setcounter{float@type}{16}
 \setcounter{algorithm}{0}
-\setcounter{lstnumber}{1}
+\setcounter{lstnumber}{26}
 \setcounter{section@level}{0}
 \setcounter{Item}{12}
 \setcounter{Hfootnote}{0}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{59}
-\setcounter{caption@flags}{0}
+\setcounter{bookmark@seq@number}{72}
+\setcounter{caption@flags}{2}
 \setcounter{continuedfloat}{0}
 \setcounter{AM@survey}{0}
 \setcounter{nlinenum}{0}
@@ -61,5 +95,5 @@
 \setcounter{subtable}{0}
 \setcounter{lotdepth}{1}
 \setcounter{parentequation}{0}
-\setcounter{lstlisting}{0}
+\setcounter{lstlisting}{8}
 }

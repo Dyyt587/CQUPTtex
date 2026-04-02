@@ -1,6 +1,215 @@
-% 参考文献数据库
-@article{学位论文编写规则,
-	title = {学位论文编写规则},
+%% 参考文献数据库
+%% 本文献库由 GitHub Copilot 根据论文主题整理，涵盖相机标定、PnP 位姿估计、
+%% 视觉伺服、ADRC 控制、A* 路径规划、IMU 姿态估计、移动机器人等核心方向。
+
+% ==============================
+% 英文参考文献
+% ==============================
+
+%% 相机标定 ——  Zhang (2000) 棋盘格柔性标定法，本文摄像头内参标定依据
+@article{Zhang2000calibration,
+  title    = {A Flexible New Technique for Camera Calibration},
+  author   = {Zhang, Zhengyou},
+  journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume   = {22},
+  number   = {11},
+  pages    = {1330--1334},
+  year     = {2000},
+  doi      = {10.1109/34.888718},
+}
+
+%% PnP 位姿估计 —— Lepetit et al. EPnP：O(n) 复杂度精确解，cv2.solvePnP 底层算法
+@article{Lepetit2009EPnP,
+  title    = {{EPnP}: An Accurate {O}($n$) Solution to the {PnP} Problem},
+  author   = {Lepetit, Vincent and Moreno-Noguer, Francesc and Fua, Pascal},
+  journal  = {International Journal of Computer Vision},
+  volume   = {81},
+  number   = {2},
+  pages    = {155--166},
+  year     = {2009},
+  doi      = {10.1007/s11263-008-0152-6},
+}
+
+%% RANSAC 鲁棒拟合 —— Fischler & Bolles 1981，PnP 鲁棒求解的基础
+@article{Fischler1981RANSAC,
+  title    = {Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography},
+  author   = {Fischler, Martin A. and Bolles, Robert C.},
+  journal  = {Communications of the ACM},
+  volume   = {24},
+  number   = {6},
+  pages    = {381--395},
+  year     = {1981},
+  doi      = {10.1145/358669.358692},
+}
+
+%% 视觉伺服综述（一）—— Hutchinson et al. 1996，移动平台双轴视觉伺服理论基础
+@article{Hutchinson1996visualservo,
+  title    = {A Tutorial on Visual Servo Control},
+  author   = {Hutchinson, Seth and Hager, Gregory D. and Corke, Peter I.},
+  journal  = {IEEE Transactions on Robotics and Automation},
+  volume   = {12},
+  number   = {5},
+  pages    = {651--670},
+  year     = {1996},
+  doi      = {10.1109/70.538972},
+}
+
+%% 视觉伺服综述（二）—— Chaumette & Hutchinson 2006，图像雅可比矩阵推导
+@article{Chaumette2006visualservo,
+  title    = {Visual Servo Control, {Part I}: Basic Approaches},
+  author   = {Chaumette, Fran{\c{c}}ois and Hutchinson, Seth},
+  journal  = {IEEE Robotics \& Automation Magazine},
+  volume   = {13},
+  number   = {4},
+  pages    = {82--90},
+  year     = {2006},
+  doi      = {10.1109/MRA.2006.250573},
+}
+
+%% ADRC 自抗扰控制 —— Han 2009，本文 APID 前馈补偿的理论来源
+@article{Han2009ADRC,
+  title    = {From {PID} to Active Disturbance Rejection Control},
+  author   = {Han, Jingqing},
+  journal  = {IEEE Transactions on Industrial Electronics},
+  volume   = {56},
+  number   = {3},
+  pages    = {900--906},
+  year     = {2009},
+  doi      = {10.1109/TIE.2009.2017071},
+}
+
+%% IMU 姿态估计 —— Mahony et al. 2008，IMU 互补滤波角速度估计算法
+@article{Mahony2008IMU,
+  title    = {Nonlinear Complementary Filters on the Special Orthogonal Group},
+  author   = {Mahony, Robert and Hamel, Tarek and Pflimlin, Jean-Michel},
+  journal  = {IEEE Transactions on Automatic Control},
+  volume   = {53},
+  number   = {5},
+  pages    = {1203--1218},
+  year     = {2008},
+  doi      = {10.1109/TAC.2008.923738},
+}
+
+%% A* 路径规划 —— Hart et al. 1968，底盘路径规划算法经典原文
+@article{Hart1968Astar,
+  title    = {A Formal Basis for the Heuristic Determination of Minimum Cost Paths},
+  author   = {Hart, Peter E. and Nilsson, Nils J. and Raphael, Bertram},
+  journal  = {IEEE Transactions on Systems Science and Cybernetics},
+  volume   = {4},
+  number   = {2},
+  pages    = {100--107},
+  year     = {1968},
+  doi      = {10.1109/TSSC.1968.300136},
+}
+
+%% HOG + SVM 目标检测 —— Dalal & Triggs 2005，引言中国内文献对比方法
+@inproceedings{Dalal2005HOG,
+  title     = {Histograms of Oriented Gradients for Human Detection},
+  author    = {Dalal, Navneet and Triggs, Bill},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {886--893},
+  year      = {2005},
+  doi       = {10.1109/CVPR.2005.177},
+}
+
+%% Faster R-CNN —— Ren et al. 2015，引言中国内轻量化快速检测方法参照
+@inproceedings{Ren2015FasterRCNN,
+  title     = {Faster {R-CNN}: Towards Real-Time Object Detection with Region Proposal Networks},
+  author    = {Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
+  booktitle = {Advances in Neural Information Processing Systems (NIPS)},
+  volume    = {28},
+  year      = {2015},
+}
+
+%% YOLO 实时目标检测 —— Redmon et al. 2016，引言中高帧率目标检测技术对比
+@inproceedings{Redmon2016YOLO,
+  title     = {You Only Look Once: Unified, Real-Time Object Detection},
+  author    = {Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {779--788},
+  year      = {2016},
+  doi       = {10.1109/CVPR.2016.91},
+}
+
+%% OpenCV 编程参考 —— Bradski \& Kaehler 2008，视觉管线实现依据
+@book{Bradski2008OpenCV,
+  title     = {Learning {OpenCV}: Computer Vision with the {OpenCV} Library},
+  author    = {Bradski, Gary and Kaehler, Adrian},
+  year      = {2008},
+  publisher = {O'Reilly Media},
+  address   = {Sebastopol, CA},
+}
+
+%% 移动机器人学 —— Siegwart et al. 2011，差速运动学模型与轮式机器人设计依据
+@book{Siegwart2011robots,
+  title     = {Introduction to Autonomous Mobile Robots},
+  author    = {Siegwart, Roland and Nourbakhsh, Illah Reza and Scaramuzza, Davide},
+  edition   = {2nd},
+  year      = {2011},
+  publisher = {MIT Press},
+  address   = {Cambridge, MA},
+}
+
+% ==============================
+% 中文参考文献
+% ==============================
+
+%% 自抗扰理论英文专著 ——  韩京清 2008，ADRC/APID 前馈补偿完整理论体系
+@book{Han2008ADRCBook,
+  title     = {自抗扰控制技术：估计补偿不确定因素的控制技术},
+  author    = {韩京清},
+  year      = {2008},
+  publisher = {国防工业出版社},
+  address   = {北京},
+}
+
+%% 自抗扰技术中文论文 —— 韩京清 2002，ADRC 核心思想中文表述
+@article{Han2002ADRCChinese,
+  title   = {从{PID}技术到"自抗扰控制"技术},
+  author  = {韩京清},
+  journal = {控制工程},
+  volume  = {9},
+  number  = {3},
+  pages   = {13--18},
+  year    = {2002},
+}
+
+%% OpenCV 中文教程 —— 毛星云等 2015，工程视觉算法实现参考
+@book{Mao2015OpenCV,
+  title     = {{OpenCV3} 编程入门},
+  author    = {毛星云 and 冷雪飞},
+  year      = {2015},
+  publisher = {电子工业出版社},
+  address   = {北京},
+}
+
+%% 机器人学教材 —— 蔡自兴等 2015，机器人运动学与控制理论基础
+@book{Cai2015Robotics,
+  title     = {机器人学（第3版）},
+  author    = {蔡自兴 and 谢斌},
+  year      = {2015},
+  publisher = {清华大学出版社},
+  address   = {北京},
+}
+
+%% 机器视觉教材 —— 贾云得 2000，图像处理与视觉感知理论基础
+@book{Jia2000MachineVision,
+  title     = {机器视觉},
+  author    = {贾云得},
+  year      = {2000},
+  publisher = {科学出版社},
+  address   = {北京},
+}
+
+%% RT-Thread 嵌入式实时操作系统文档
+@misc{RTThread2023,
+  title        = {{RT-Thread} 编程指南},
+  author       = {{RT-Thread}开发团队},
+  year         = {2023},
+  howpublished = {[EB/OL]. \url{https://www.rt-thread.org/document/site/}},
+  note         = {访问日期：2026-03-30},
+}
+
 	url = {https://kns.cnki.net/KNS8/Detail?sfield=fn&QueryID=6&CurRec=2&recid=&FileName=SCSF00000378&DbName=SCSF&DbCode=SCSF&yx=&pr=&URLID=},
 	urldate = {2021-08-08},
 	author = {国务院学位委员会办公室 and 中国科学技术信息研究所},

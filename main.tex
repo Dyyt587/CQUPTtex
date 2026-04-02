@@ -15,6 +15,7 @@
 \input{latex_settings/custom-chinese}
 
 \begin{document}
+\let\cleardoublepage\clearpage  %% 全局消除空白页
 \pagestyle{empty}
 % 中文封面页
 \input{chapters/pagetitle-chinese}
@@ -31,9 +32,6 @@
 \pagestyle{headings}
 \clearpage
 \pdfbookmark[0]{目录}{toc}
-\tableofcontents
-% % \thispagestyle{MyStyle}
-\let\cleardoublepage\clearpage %latex消除空白页
 % 符号及缩略词说明
 % \thispagestyle{empty}
 % \input{chapters/sym-def}
@@ -42,14 +40,13 @@
 % 开始章节写作,显示特定页眉页脚
 \mainmatter
 \pagestyle{plain}
-% 第1-7章
+% 第1-6章
 \include{chapters/chapter01}
 \include{chapters/chapter02}
 \include{chapters/chapter03}
 \include{chapters/chapter04}
 \include{chapters/chapter05}
 \include{chapters/chapter06}
-\include{chapters/chapter07}
 \backmatter
 %================================
 % 参考文献

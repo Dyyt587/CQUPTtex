@@ -1,28 +1,48 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第3章\hspace  {.3em}}器件选择及介绍}{7}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {第3章\hspace  {.3em}}硬件详细设计}{10}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}单片机选型}{7}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}单片机选型要求}{7}{subsection.3.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}STM32H7单片机功能介绍}{7}{subsection.3.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}传感器选型}{7}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}传感器选型要求}{7}{subsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}六轴IMU传感器介绍}{7}{subsection.3.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}视觉采集模块选型}{8}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}视觉模块选型要求}{8}{subsection.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}USB摄像头介绍与选择理由}{8}{subsection.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}云台驱动与执行器选型}{8}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}驱动选型要求}{8}{subsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}执行器与驱动器介绍}{8}{subsection.3.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}关键器件接口与管脚说明}{8}{section.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}STM32H7关键接口说明}{8}{subsection.3.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}IMU与摄像头接口说明}{8}{subsection.3.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.3}云台驱动接口说明}{9}{subsection.3.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}本章小结}{9}{section.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}单片机控制核心电路}{10}{section.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 瞄准模块电路原理图}}{10}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:aim-schematic}{{3.1}{10}{瞄准模块电路原理图}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 瞄准模块电路PCB布局}}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:aim-pcb}{{3.2}{11}{瞄准模块电路PCB布局}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}IMU数据采集电路}{11}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}IMU内部结构与工作模式}{11}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}IMU时序与采样配置}{11}{subsection.3.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces STM32H743核心板实物图}}{12}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:stm32h7-board}{{3.3}{12}{STM32H743核心板实物图}{figure.caption.8}{}}
+\citation{Zhang2000calibration}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}IMU接口连接与抗干扰设计}{13}{subsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}图像采集与通信电路}{13}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}USB摄像头接入原理}{13}{subsection.3.3.1}\protected@file@percent }
+\newlabel{eq:camera-matrix}{{3.1}{13}{USB摄像头接入原理}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}图像数据链路设计}{13}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}云台驱动与电机控制电路}{14}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}电机驱动原理}{14}{subsection.3.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces MS4010 v3云台步进电机实物图}}{14}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:ms4010-motor}{{3.4}{14}{MS4010 v3云台步进电机实物图}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}RS485总线接口与电源设计}{14}{subsection.3.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 电源电路原理图}}{15}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:power-schematic}{{3.5}{15}{电源电路原理图}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 电源电路PCB布局}}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:power-pcb}{{3.6}{15}{电源电路PCB布局}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}人机交互与保护电路}{16}{section.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}状态指示与报警模块}{16}{subsection.3.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}控制按键与急停逻辑}{16}{subsection.3.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}自动循迹底盘控制电路}{16}{section.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}系统硬件联调与整机连接图}{16}{section.3.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces 自动循迹底盘电路原理图}}{17}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:chassis-schematic}{{3.7}{17}{自动循迹底盘电路原理图}{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces 自动循迹底盘电路PCB布局}}{17}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:chassis-pcb}{{3.8}{17}{自动循迹底盘电路PCB布局}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces WHEELTEC C07A底盘核心板（MSPM0G3507）实物图}}{18}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:mspm0g-board}{{3.9}{18}{WHEELTEC C07A底盘核心板（MSPM0G3507）实物图}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.8}本章小结}{18}{section.3.8}\protected@file@percent }
 \@setckpt{chapters/chapter03}{
-\setcounter{page}{10}
-\setcounter{equation}{0}
+\setcounter{page}{19}
+\setcounter{equation}{1}
 \setcounter{enumi}{4}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
@@ -31,12 +51,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{3}
-\setcounter{section}{6}
+\setcounter{section}{8}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{9}
 \setcounter{table}{0}
 \setcounter{ALG@line}{0}
 \setcounter{ALG@rem}{0}
@@ -52,8 +72,8 @@
 \setcounter{Item}{12}
 \setcounter{Hfootnote}{0}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{42}
-\setcounter{caption@flags}{0}
+\setcounter{bookmark@seq@number}{46}
+\setcounter{caption@flags}{2}
 \setcounter{continuedfloat}{0}
 \setcounter{AM@survey}{0}
 \setcounter{nlinenum}{0}

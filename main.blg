@@ -7,55 +7,59 @@ A level-1 auxiliary file: chapters/chapter03.aux
 A level-1 auxiliary file: chapters/chapter04.aux
 A level-1 auxiliary file: chapters/chapter05.aux
 A level-1 auxiliary file: chapters/chapter06.aux
-A level-1 auxiliary file: chapters/chapter07.aux
 The style file: reference/gbt7714-2005.bst
 A level-1 auxiliary file: chapters/thanks.aux
 A level-1 auxiliary file: chapters/appden01.aux
 A level-1 auxiliary file: chapters/appden02.aux
-I found no \citation commands---while reading file main.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference/ref.bib
-You've used 0 entries,
+Warning--Require citedate: Hutchinson1996visualservo
+Warning--Require citedate: Redmon2016YOLO
+Warning--Require citedate: Dalal2005HOG
+Warning--Require citedate: Zhang2000calibration
+Warning--Require citedate: Han2009ADRC
+Warning--Require citedate: Mahony2008IMU
+You've used 12 entries,
             3107 wiz_defined-function locations,
-            717 strings with 6158 characters,
-and the built_in function-call counts, 64 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 3
+            806 strings with 8163 characters,
+and the built_in function-call counts, 17373 in all, are:
+= -- 1830
+> -- 38
+< -- 86
++ -- 1441
+- -- 117
+* -- 564
+:= -- 1898
 add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 2
+call.type$ -- 12
+change.case$ -- 48
+chr.to.int$ -- 6
+cite$ -- 18
+duplicate$ -- 2393
+empty$ -- 725
+format.name$ -- 96
+if$ -- 4592
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 12
 missing$ -- 0
-newline$ -- 27
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 63
+num.names$ -- 12
+pop$ -- 257
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 163
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 1993
+swap$ -- 556
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 27
-(There was 1 error message)
+warning$ -- 6
+while$ -- 234
+width$ -- 14
+write$ -- 198
+(There were 6 warnings)
