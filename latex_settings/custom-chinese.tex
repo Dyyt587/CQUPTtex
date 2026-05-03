@@ -85,7 +85,7 @@
 \geometry{a4paper,top=3cm,bottom=2.5cm,left=2.5cm,right=2.5cm}
 
 % 设置行间距 1.5倍
-\linespread{1.5}\selectfont
+\linespread{1.0}\selectfont
 % 设置段与段之间的垂直距离 \parskip默认橡皮长度是0pt plus 1pt
 \setlength{\parskip}{0pt}
 % \setlength{\parindent}{0pt}
@@ -182,12 +182,18 @@
     },
     section={
         format={\heiti\sihao},
+        beforeskip={1.5ex},
+        afterskip={0.5ex},
     },
     subsection={
         format={\heiti\xiaosi},
+        beforeskip={1.5ex},
+        afterskip={0.5ex},
     },
     subsubsection={
         format={\heiti\xiaosi},
+        beforeskip={1.5ex},
+        afterskip={0.5ex},
     }
 }
 
@@ -248,11 +254,13 @@
 %设置自定义变量
 \newcommand\degree{^\cire}
 
-% 定义文献引用格式,\cite正常引用 \supercite右上角引用
+% 定义文献引用格式：正文中默认使用右上角角标引用
 \usepackage{cite}
-\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+\let\citeinline\cite
+\renewcommand{\cite}[1]{\textsuperscript{\citeinline{#1}}}
+\newcommand{\upcite}[1]{\cite{#1}}
 \newcommand\supercite[2][]{%
-\textsuperscript{\cite[#1]{#2}}
+\textsuperscript{\citeinline[#1]{#2}}
 }
 
 \usepackage{enumitem}
