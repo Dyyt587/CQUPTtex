@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.18)  5 MAY 2026 19:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.18)  5 MAY 2026 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1493,6 +1493,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
 [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1501,10 +1504,254 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
 [21]
+Underfull \vbox (badness 4108) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
-(fancyhdr) 
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[23]
+Overfull \hbox (25.62071pt too wide) in paragraph at lines 405--406
+[]\TU/SimSun(0)/m/n/12.045 该 工 程 使 用 \TU/TimesNewRoman(0)/m/n/12.045 8 \TU/SimSun(0)/m/n/12.045 路 灰 度 传 感 器，|  先 通 过 \TU/TimesNewRoman(1)/m/n/12.045 Get_Normalize_For_User \TU/SimSun(0)/m/n/12.045 得 到 归 一 化 数 据 \TU/TimesNewRoman(1)/m/n/12.045 Normal[8]\TU/SimSun(0)/m/n/12.045 。|
+ []
+
+Missing character: There is no ① (U+2460) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ② (U+2461) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ③ (U+2462) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ④ (U+2463) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[24])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[25]
+\openout2 = `chapters/chapter05.aux'.
+
+ (./chapters/chapter05.tex
+第5章
+
+Overfull \hbox (4.67165pt too wide) in paragraph at lines 13--24
+ [][] 
+ []
+
+File: images/chapters/fig-vision-tracking-test.png Graphic file (type bmp)
+<images/chapters/fig-vision-tracking-test.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[26
+
+
+
+
+]
+File: images/chapters/run-test.png Graphic file (type bmp)
+<images/chapters/run-test.png>
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[27]
+\openout2 = `chapters/chapter06.aux'.
+
+ (./chapters/chapter06.tex
+第6章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[28
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[29])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[30] (./chapters/ref.tex (./main.bbl)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[31
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[32]
+\openout2 = `chapters/thanks.aux'.
+
+ (./chapters/thanks.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[33
+
+
+]
+\openout2 = `chapters/appden01.aux'.
+
+ (./chapters/appden01.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.045pt
+(hyperref)                replaced by space on input line 3.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Microsoft YaHei Bold/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Microsoft YaHei/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'MicrosoftYaHei(0)' created for font
+(fontspec)             'Microsoft YaHei' with options
+(fontspec)             [Script={CJK},BoldFont={* Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Microsoft YaHei
+(fontspec)             Bold/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
+(fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[34
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[35]
+\openout2 = `chapters/appden02.aux'.
+
+ (./chapters/appden02.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.045pt
+(hyperref)                replaced by space on input line 4.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[36
+
+
+
+
+] (./main.aux (./chapters/chapter01.aux) (./chapters/chapter02.aux) (./chapters/chapter03.aux) (./chapters/chapter04.aux) (./chapters/chapter05.aux) (./chapters/chapter06.aux) (./chapters/thanks.aux) (./chapters/appden01.aux) (./chapters/appden02.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2022/08/05>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D76EE81EED321049610D3139A38D1957;12376.
+ ) 
+Here is how much of TeX's memory you used:
+ 24826 strings out of 468168
+ 523747 string characters out of 5436524
+ 1280743 words of memory out of 5000000
+ 53019 multiletter control sequences out of 15000+600000
+ 639695 words of font info for 150 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,18n,111p,1228b,1416s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (43 pages).

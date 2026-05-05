@@ -106,7 +106,7 @@ static void vision_tracker_thread_entry(void *parameter)
 
 \subsection{视觉线程架构与数据流}
 
-根据参考目录下\texttt{edc\_opencv/EDC\_Opencv.py}的实现，视觉端采用“三线程+双队列”结构：
+视觉端采用“三线程+双队列”结构：
 
 （1）\textbf{读取线程}\texttt{read\_thread\_func}：持续从摄像头读取帧，并通过\texttt{frame\_queue(maxsize=1)}仅保留最新一帧，降低处理时延累积；
 
