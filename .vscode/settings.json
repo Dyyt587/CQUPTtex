@@ -36,6 +36,12 @@
     ],
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.synctex.afterBuild.enabled": true,
-    "workbench.externalBrowser": "edge"
+    "workbench.externalBrowser": "edge",
+    "chat.tools.terminal.autoApprove": {
+        "/^latexmk -xelatex -interaction=nonstopmode -halt-on-error main\\.tex$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }
     

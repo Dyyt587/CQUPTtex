@@ -29,17 +29,16 @@
 \contentsline {section}{\numberline {3.1}单片机控制核心电路}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}IMU数据采集电路}{9}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}IMU内部结构与工作模式}{9}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}IMU时序与采样配置}{10}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}IMU接口连接与抗干扰设计}{10}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}图像采集与通信电路}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}USB摄像头接入原理}{10}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}图像数据链路设计}{12}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}云台驱动与电机控制电路}{12}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}电机驱动原理}{12}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.2.2}IMU时序与采样配置}{11}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}IMU接口连接与抗干扰设计}{11}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}图像采集与通信电路}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}USB摄像头接入原理}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}图像数据链路设计}{11}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}云台驱动与电机控制电路}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}电机驱动原理}{11}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}RS485总线接口与电源设计}{12}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}自动循迹底盘控制电路}{14}{section.3.5}%
-\contentsline {section}{\numberline {3.6}系统硬件联调与整机连接图}{14}{section.3.6}%
-\contentsline {section}{\numberline {3.7}本章小结}{14}{section.3.7}%
+\contentsline {section}{\numberline {3.5}自动循迹底盘控制电路}{13}{section.3.5}%
+\contentsline {section}{\numberline {3.6}本章小结}{13}{section.3.6}%
 \contentsline {chapter}{\numberline {第4章\hspace {.3em}}系统软件设计}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}软件总体架构与流程}{16}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}程序分层与任务划分}{16}{subsection.4.1.1}%
@@ -69,14 +68,14 @@
 \contentsline {chapter}{\numberline {第5章\hspace {.3em}}系统调试与结果分析}{26}{chapter.5}%
 \contentsline {section}{\numberline {5.1}调试环境与测试方案}{26}{section.5.1}%
 \contentsline {section}{\numberline {5.2}图像识别与跟踪效果测试}{26}{section.5.2}%
-\contentsline {section}{\numberline {5.3}姿态采集与补偿性能测试}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.3}姿态采集与稳定性测试}{27}{section.5.3}%
 \contentsline {section}{\numberline {5.4}云台控制与稳态误差测试}{27}{section.5.4}%
 \contentsline {section}{\numberline {5.5}本章小结}{27}{section.5.5}%
 \contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{28}{chapter.6}%
 \contentsline {section}{\numberline {6.1}主要工作与创新点}{28}{section.6.1}%
 \contentsline {section}{\numberline {6.2}不足与改进方向}{28}{section.6.2}%
 \contentsline {section}{\numberline {6.3}后续研究工作展望}{28}{section.6.3}%
-\contentsline {chapter}{参考文献}{31}{chapter*.20}%
-\contentsline {chapter}{致谢}{33}{chapter*.21}%
-\contentsline {chapter}{附录A\hskip 1em\relax 科技写作中非学术型低级错误的主要表现}{34}{chapter*.22}%
-\contentsline {chapter}{附录B\hskip 1em\relax 英文翻译}{36}{chapter*.23}%
+\contentsline {chapter}{参考文献}{31}{chapter*.21}%
+\contentsline {chapter}{致谢}{33}{chapter*.22}%
+\contentsline {chapter}{附录A\hskip 1em\relax 科技写作中非学术型低级错误的主要表现}{34}{chapter*.23}%
+\contentsline {chapter}{附录B\hskip 1em\relax 英文翻译}{36}{chapter*.24}%

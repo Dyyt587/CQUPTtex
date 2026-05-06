@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.18)  5 MAY 2026 19:52
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.6)  7 MAY 2026 04:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -673,6 +673,8 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (c:/texlive/2026/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip75
 \subfig@bottom=\skip76
+) (c:/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (c:/texlive/2026/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
@@ -830,7 +832,7 @@ Package ctexhook Warning: Package `ctexsize' can not be loaded with
 (ctexhook)                `ctexbook'.
 
 LaTeX Info: Package 'ctexsize.sty' has been disabled.
-            Load request ignored on input line 115.
+            Load request ignored on input line 116.
 (c:/texlive/2026/texmf-dist/tex/latex/type1cm/type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, patched RF)
 ) (c:/texlive/2026/texmf-dist/tex/latex/mathtools/mathtools.sty
@@ -1361,20 +1363,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
 [10]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
-
-[11]
 File: images/chapters/fig-ms4010-motor.png Graphic file (type bmp)
 <images/chapters/fig-ms4010-motor.png>
-File: images/chapters/fig-power-schematic.png Graphic file (type bmp)
-<images/chapters/fig-power-schematic.png>
-File: images/chapters/fig-power-pcb.png Graphic file (type bmp)
-<images/chapters/fig-power-pcb.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1386,7 +1376,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
+[11]
+File: images/chapters/fig-power-schematic.png Graphic file (type bmp)
+<images/chapters/fig-power-schematic.png>
+File: images/chapters/fig-power-pcb.png Graphic file (type bmp)
+<images/chapters/fig-power-pcb.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
 [12]
+File: images/chapters/fig-chassis-schematic.png Graphic file (type bmp)
+<images/chapters/fig-chassis-schematic.png>
+File: images/chapters/fig-chassis-pcb.png Graphic file (type bmp)
+<images/chapters/fig-chassis-pcb.png>
+File: images/chapters/fig-mspm0g-board.png Graphic file (type bmp)
+<images/chapters/fig-mspm0g-board.png>
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1395,13 +1405,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
 [13]
-File: images/chapters/fig-chassis-schematic.png Graphic file (type bmp)
-<images/chapters/fig-chassis-schematic.png>
-File: images/chapters/fig-chassis-pcb.png Graphic file (type bmp)
-<images/chapters/fig-chassis-pcb.png>
-File: images/chapters/fig-mspm0g-board.png Graphic file (type bmp)
-<images/chapters/fig-mspm0g-board.png>
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1561,6 +1564,8 @@ Overfull \hbox (4.67165pt too wide) in paragraph at lines 13--24
 
 File: images/chapters/fig-vision-tracking-test.png Graphic file (type bmp)
 <images/chapters/fig-vision-tracking-test.png>
+File: images/chapters/fig-imu-test.png Graphic file (type bmp)
+<images/chapters/fig-imu-test.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1743,13 +1748,13 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D76EE81EED321049610D3139A38D1957;12376.
+(rerunfilecheck)             Checksum: 5691A56F4B88B9C1C40B24ACA636AFF6;12195.
  ) 
 Here is how much of TeX's memory you used:
- 24826 strings out of 468168
- 523747 string characters out of 5436524
- 1280743 words of memory out of 5000000
- 53019 multiletter control sequences out of 15000+600000
+ 24862 strings out of 468168
+ 524717 string characters out of 5436525
+ 1280709 words of memory out of 5000000
+ 53050 multiletter control sequences out of 15000+600000
  639695 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,18n,111p,1228b,1416s stack positions out of 10000i,1000n,20000p,200000b,200000s

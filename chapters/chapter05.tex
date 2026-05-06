@@ -34,12 +34,16 @@ IMU采样频率 & $\geq$100\,Hz & IMU官方上位机设置及出厂参数保证 
 \label{fig:vision-tracking-test}
 \end{figure}
 
-\section{姿态采集与补偿性能测试}
+\section{姿态采集与稳定性测试}
 
-本节评估IMU采样稳定性与角速度补偿效果。测试分为两个阶段进行：
+本节评估IMU采样数据与稳定性效果。通过上位机时间戳统计UART输出频率，验证HiPNUC IMU在100\,Hz配置下的实际输出稳定性；
 
-（1）\textbf{采样稳定性验证}：在静止与匀速运动两种工况下，通过上位机时间戳统计UART输出频率，验证HiPNUC IMU在100\,Hz配置下的实际输出稳定性；
-
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.55\textwidth]{images/chapters/fig-imu-test.png}
+\caption{IMU数据及稳定性测试}
+\label{fig:imu-test}
+\end{figure}
 % （2）\textbf{补偿效果对比}：分别记录``仅像素闭环（不含前馈）''与``双闭环（含APID前馈）''两种策略下的瞄准线偏差曲线，对比平台突加速及振动工况下的峰值误差与收敛速度。引入IMU前馈后，控制量$u_{yaw}$可在图像反馈滞后期间提前抵消平台角速度扰动，预期瞄准线峰值偏差可压缩30\%以上，通过补偿前后的误差对比实现量化验证。
 
 \section{云台控制与稳态误差测试}
