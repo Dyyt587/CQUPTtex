@@ -25,39 +25,89 @@
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
 \bibitem{Hutchinson1996visualservo}
-\bibauthor{HUTCHINSON S\@, HAGER G~D\@, CORKE P~I}\@. \bibtitle{A Tutorial on Visual Servo Control}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Robotics and Automation}\@, \bibyear{1996}\@, \bibvolume{12}\bibnumber{(5)}\thinspace{}\textnormal{: }\bibpages{651\thinspace{}\textnormal{--}\thinspace{}670}\@. \newline\url{http://dx.doi.org/10.1109/70.538972}\@.
+\bibauthor{HUTCHINSON S\@, HAGER G~D\@, CORKE P~I}\@. \bibtitle{A Tutorial on
+  Visual Servo Control}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on
+  Robotics and Automation}\@, \bibyear{1996}\@,
+  \bibvolume{12}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{651\thinspace{}\textnormal{--}\thinspace{}670}\@.
+  \newline\url{http://dx.doi.org/10.1109/70.538972}\@.
 
 \bibitem{Ren2015FasterRCNN}
-\bibauthor{REN S\@, HE K\@, GIRSHICK R, et~al}\@. \bibtitle{Faster {R-CNN}: Towards Real-Time Object Detection with Region Proposal Networks}\bibmark{[C]} //\thinspace{}\bibbooktitle{Advances in Neural Information Processing Systems (NIPS)\thinspace{}\textnormal{: }Vol~28}\@. \bibyear{2015}\@.
+\bibauthor{REN S\@, HE K\@, GIRSHICK R, et~al}\@. \bibtitle{Faster {R-CNN}:
+  Towards Real-Time Object Detection with Region Proposal
+  Networks}\bibmark{[C]} //\thinspace{}\bibbooktitle{Advances in Neural
+  Information Processing Systems (NIPS)\thinspace{}\textnormal{: }Vol~28}\@.
+  \bibyear{2015}\@.
 
 \bibitem{Redmon2016YOLO}
-\bibauthor{REDMON J\@, DIVVALA S\@, GIRSHICK R, et~al}\@. \bibtitle{You Only Look Once: Unified, Real-Time Object Detection}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}\@. \bibyear{2016}\thinspace{}\textnormal{: }\bibpages{779\thinspace{}\textnormal{--}\thinspace{}788}\@. \newline\url{http://dx.doi.org/10.1109/CVPR.2016.91}\@.
+\bibauthor{REDMON J\@, DIVVALA S\@, GIRSHICK R, et~al}\@. \bibtitle{You Only
+  Look Once: Unified, Real-Time Object Detection}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition (CVPR)}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{779\thinspace{}\textnormal{--}\thinspace{}788}\@.
+  \newline\url{http://dx.doi.org/10.1109/CVPR.2016.91}\@.
 
 \bibitem{Jia2000MachineVision}
-\bibauthor{贾云得}\@. \bibbooktitle{机器视觉}\bibmark{[M]}\@. \bibaddress{北京}\thinspace{}\textnormal{: }\bibpublisher{科学出版社}\@, \bibyear{2000}\@.
+\bibauthor{贾云得}\@. \bibbooktitle{机器视觉}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibpublisher{科学出版社}\@, \bibyear{2000}\@.
 
 \bibitem{Dalal2005HOG}
-\bibauthor{DALAL N\@, TRIGGS B}\@. \bibtitle{Histograms of Oriented Gradients for Human Detection}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}\@. \bibyear{2005}\thinspace{}\textnormal{: }\bibpages{886\thinspace{}\textnormal{--}\thinspace{}893}\@. \newline\url{http://dx.doi.org/10.1109/CVPR.2005.177}\@.
+\bibauthor{DALAL N\@, TRIGGS B}\@. \bibtitle{Histograms of Oriented Gradients
+  for Human Detection}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{Proceedings
+  of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}\@.
+  \bibyear{2005}\thinspace{}\textnormal{:
+  }\bibpages{886\thinspace{}\textnormal{--}\thinspace{}893}\@.
+  \newline\url{http://dx.doi.org/10.1109/CVPR.2005.177}\@.
 
 \bibitem{Zhang2000calibration}
-\bibauthor{ZHANG Z}\@. \bibtitle{A Flexible New Technique for Camera Calibration}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Pattern Analysis and Machine Intelligence}\@, \bibyear{2000}\@, \bibvolume{22}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{1330\thinspace{}\textnormal{--}\thinspace{}1334}\@. \newline\url{http://dx.doi.org/10.1109/34.888718}\@.
+\bibauthor{ZHANG Z}\@. \bibtitle{A Flexible New Technique for Camera
+  Calibration}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Pattern
+  Analysis and Machine Intelligence}\@, \bibyear{2000}\@,
+  \bibvolume{22}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{1330\thinspace{}\textnormal{--}\thinspace{}1334}\@.
+  \newline\url{http://dx.doi.org/10.1109/34.888718}\@.
 
 \bibitem{Han2009ADRC}
-\bibauthor{HAN J}\@. \bibtitle{From {PID} to Active Disturbance Rejection Control}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Industrial Electronics}\@, \bibyear{2009}\@, \bibvolume{56}\bibnumber{(3)}\thinspace{}\textnormal{: }\bibpages{900\thinspace{}\textnormal{--}\thinspace{}906}\@. \newline\url{http://dx.doi.org/10.1109/TIE.2009.2017071}\@.
+\bibauthor{HAN J}\@. \bibtitle{From {PID} to Active Disturbance Rejection
+  Control}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Industrial
+  Electronics}\@, \bibyear{2009}\@,
+  \bibvolume{56}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{900\thinspace{}\textnormal{--}\thinspace{}906}\@.
+  \newline\url{http://dx.doi.org/10.1109/TIE.2009.2017071}\@.
 
 \bibitem{Han2008ADRCBook}
-\bibauthor{韩京清}\@. \bibbooktitle{自抗扰控制技术：估计补偿不确定因素的控制技术}\bibmark{[M]}\@. \bibaddress{北京}\thinspace{}\textnormal{: }\bibpublisher{国防工业出版社}\@, \bibyear{2008}\@.
+\bibauthor{韩京清}\@.
+  \bibbooktitle{自抗扰控制技术：估计补偿不确定因素的控制技术}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibpublisher{国防工业出版社}\@, \bibyear{2008}\@.
 
 \bibitem{Han2002ADRCChinese}
-\bibauthor{韩京清}\@. \bibtitle{从{PID}技术到"自抗扰控制"技术}\bibmark{[J]}\@. \bibjournal{控制工程}\@, \bibyear{2002}\@, \bibvolume{9}\bibnumber{(3)}\thinspace{}\textnormal{: }\bibpages{13\thinspace{}\textnormal{--}\thinspace{}18}\@.
+\bibauthor{韩京清}\@.
+  \bibtitle{从{PID}技术到"自抗扰控制"技术}\bibmark{[J]}\@.
+  \bibjournal{控制工程}\@, \bibyear{2002}\@,
+  \bibvolume{9}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{13\thinspace{}\textnormal{--}\thinspace{}18}\@.
 
 \bibitem{Mahony2008IMU}
-\bibauthor{MAHONY R\@, HAMEL T\@, PFLIMLIN J-M}\@. \bibtitle{Nonlinear Complementary Filters on the Special Orthogonal Group}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Automatic Control}\@, \bibyear{2008}\@, \bibvolume{53}\bibnumber{(5)}\thinspace{}\textnormal{: }\bibpages{1203\thinspace{}\textnormal{--}\thinspace{}1218}\@. \newline\url{http://dx.doi.org/10.1109/TAC.2008.923738}\@.
+\bibauthor{MAHONY R\@, HAMEL T\@, PFLIMLIN J-M}\@. \bibtitle{Nonlinear
+  Complementary Filters on the Special Orthogonal Group}\bibmark{[J/OL]}\@.
+  \bibjournal{IEEE Transactions on Automatic Control}\@, \bibyear{2008}\@,
+  \bibvolume{53}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{1203\thinspace{}\textnormal{--}\thinspace{}1218}\@.
+  \newline\url{http://dx.doi.org/10.1109/TAC.2008.923738}\@.
 
 \bibitem{Siegwart2011robots}
-\bibauthor{SIEGWART R\@, NOURBAKHSH I~R\@, SCARAMUZZA D}\@. \bibbooktitle{Introduction to Autonomous Mobile Robots}\bibmark{[M]}\@. \bibedition{\mbox{2nd}}\@. \bibaddress{Cambridge, MA}\thinspace{}\textnormal{: }\bibpublisher{MIT Press}\@, \bibyear{2011}\@.
+\bibauthor{SIEGWART R\@, NOURBAKHSH I~R\@, SCARAMUZZA D}\@.
+  \bibbooktitle{Introduction to Autonomous Mobile Robots}\bibmark{[M]}\@.
+  \bibedition{\mbox{2nd}}\@. \bibaddress{Cambridge,
+  MA}\thinspace{}\textnormal{: }\bibpublisher{MIT Press}\@, \bibyear{2011}\@.
 
 \bibitem{Cai2015Robotics}
-\bibauthor{蔡自兴\@, 谢斌}\@. \bibbooktitle{机器人学（第3版）}\bibmark{[M]}\@. \bibaddress{北京}\thinspace{}\textnormal{: }\bibpublisher{清华大学出版社}\@, \bibyear{2015}\@.
+\bibauthor{蔡自兴\@, 谢斌}\@.
+  \bibbooktitle{机器人学（第3版）}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibpublisher{清华大学出版社}\@, \bibyear{2015}\@.
 
 \end{thebibliography}
