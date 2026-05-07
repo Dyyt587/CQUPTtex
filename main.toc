@@ -1,0 +1,81 @@
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}引言}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}应用背景}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}技术背景}{1}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}研究目的及意义}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}研究目的}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}研究意义}{2}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}研究现状及设计思路}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}国外研究现状}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}国内研究现状}{3}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}存在的主要问题}{3}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}本文的设计思路}{3}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}发展趋势}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}主要内容和论文组织}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}系统总体设计}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}系统设计工作原理及原理框图}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}基本工作原理}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}系统原理框图与模块说明}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}系统设计要求}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}功能性要求}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}性能指标要求}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}约束条件与设计边界}{6}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}关键器件选型与接口设计}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}主控器件}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}传感器与视觉模块}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}执行机构与接口设计}{7}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}本章小结}{8}{section.2.4}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}系统硬件设计}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}单片机控制核心电路}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}IMU数据采集电路}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}IMU内部结构与工作模式}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}IMU时序与采样配置}{11}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}IMU接口连接与抗干扰设计}{11}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}图像采集与通信电路}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}USB摄像头接入原理}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}图像数据链路设计}{11}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}云台驱动与电机控制电路}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}电机驱动原理}{11}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}RS485总线接口与电源设计}{12}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}自动循迹底盘控制电路}{13}{section.3.5}%
+\contentsline {section}{\numberline {3.6}本章小结}{13}{section.3.6}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}系统软件设计}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}软件总体架构与流程}{16}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}程序分层与任务划分}{16}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}软件主流程图}{16}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}IMU数据处理程序}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}数据采集与滤波}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}姿态解算与角速度发布}{17}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}视觉识别与跟踪程序}{18}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}视觉线程架构与数据流}{18}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}目标检测与几何筛选流程}{19}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}PnP位姿解算与目标量生成}{20}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}丢失重捕获与串口通信协议}{20}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}双闭环控制程序设计}{21}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}像素误差外环PID}{21}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}IMU角速度前馈内环}{21}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}通信与上位机控制程序}{22}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}USB-CDC通信协议}{22}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Linux端控制界面与参数下发}{22}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}系统主控程序设计与异常处理}{23}{section.4.6}%
+\contentsline {section}{\numberline {4.7}差速底盘工程的软件实现}{23}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}控制主循环与运行模式}{23}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}红外循迹与路口判别策略}{24}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}固定圈速实现与圈数管理}{24}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}差速运动学与轮速闭环}{24}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}作为系统子模块的协同与可靠性优势}{25}{subsection.4.7.5}%
+\contentsline {section}{\numberline {4.8}本章小结}{25}{section.4.8}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}系统调试与结果分析}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}调试环境与测试方案}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}图像识别与跟踪效果测试}{27}{section.5.2}%
+\contentsline {section}{\numberline {5.3}姿态采集与稳定性测试}{28}{section.5.3}%
+\contentsline {section}{\numberline {5.4}云台控制与稳态误差测试}{28}{section.5.4}%
+\contentsline {section}{\numberline {5.5}本章小结}{28}{section.5.5}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}总结与展望}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}主要工作与创新点}{29}{section.6.1}%
+\contentsline {section}{\numberline {6.2}不足与改进方向}{29}{section.6.2}%
+\contentsline {section}{\numberline {6.3}后续研究工作展望}{29}{section.6.3}%
+\contentsline {chapter}{参考文献}{32}{chapter*.21}%
+\contentsline {chapter}{致谢}{35}{chapter*.22}%
+\contentsline {chapter}{附录A\hskip 1em\relax 科技写作中非学术型低级错误的主要表现}{36}{chapter*.23}%
+\contentsline {chapter}{附录B\hskip 1em\relax 英文翻译}{38}{chapter*.24}%

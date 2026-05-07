@@ -32,6 +32,13 @@
   }\bibpages{651\thinspace{}\textnormal{--}\thinspace{}670}\@.
   \newline\url{http://dx.doi.org/10.1109/70.538972}\@.
 
+\bibitem{Ma2017VisualServo}
+\bibauthor{马腾飞\@, 张洁\@, 贾培发}\@.
+  \bibtitle{视觉伺服控制综述与发展展望}\bibmark{[J]}\@.
+  \bibjournal{自动化学报}\@, \bibyear{2017}\@,
+  \bibvolume{43}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{1673\thinspace{}\textnormal{--}\thinspace{}1687}\@.
+
 \bibitem{Ren2015FasterRCNN}
 \bibauthor{REN S\@, HE K\@, GIRSHICK R, et~al}\@. \bibtitle{Faster {R-CNN}:
   Towards Real-Time Object Detection with Region Proposal
@@ -48,10 +55,30 @@
   }\bibpages{779\thinspace{}\textnormal{--}\thinspace{}788}\@.
   \newline\url{http://dx.doi.org/10.1109/CVPR.2016.91}\@.
 
+\bibitem{Redmon2018YOLOv3}
+\bibauthor{REDMON J\@, FARHADI A}\@. \bibtitle{{YOLOv3}: An Incremental
+  Improvement}\bibmark{[J]}\@. \bibjournal{arXiv preprint arXiv:1804.02767}\@,
+  \bibyear{2018}\@.
+
 \bibitem{Jia2000MachineVision}
 \bibauthor{贾云得}\@. \bibbooktitle{机器视觉}\bibmark{[M]}\@.
   \bibaddress{北京}\thinspace{}\textnormal{:
   }\bibpublisher{科学出版社}\@, \bibyear{2000}\@.
+
+\bibitem{Liu2018DeepLearning}
+\bibauthor{刘昊\@, 王晓慧\@, 李培国}\@.
+  \bibtitle{嵌入式计算机视觉中的轻量化深度学习方法}\bibmark{[J]}\@.
+  \bibjournal{计算机研究与发展}\@, \bibyear{2018}\@,
+  \bibvolume{55}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{2213\thinspace{}\textnormal{--}\thinspace{}2229}\@.
+
+\bibitem{Han2015DeepCompression}
+\bibauthor{HAN S\@, MAO H\@, DALLY W~J}\@. \bibtitle{Deep Compression:
+  Compressing Deep Neural Networks with Pruning, Trained Quantization and
+  Huffman Coding}\bibmark{[C]} //\thinspace{}\bibbooktitle{International
+  Conference on Learning Representations (ICLR)}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}13}\@.
 
 \bibitem{Dalal2005HOG}
 \bibauthor{DALAL N\@, TRIGGS B}\@. \bibtitle{Histograms of Oriented Gradients
@@ -61,6 +88,24 @@
   }\bibpages{886\thinspace{}\textnormal{--}\thinspace{}893}\@.
   \newline\url{http://dx.doi.org/10.1109/CVPR.2005.177}\@.
 
+\bibitem{Howard2017MobileNet}
+\bibauthor{HOWARD A~G\@, ZHU M\@, CHEN B, et~al}\@. \bibtitle{{MobileNets}:
+  Efficient Convolutional Neural Networks for Mobile Vision
+  Applications}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{Proceedings of the
+  IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}\@.
+  \bibyear{2017}\thinspace{}\textnormal{:
+  }\bibpages{4234\thinspace{}\textnormal{--}\thinspace{}4243}\@.
+  \newline\url{http://dx.doi.org/10.1109/CVPR.2017.499}\@.
+
+\bibitem{Sandler2018MobileNetV2}
+\bibauthor{SANDLER M\@, HOWARD A\@, ZHU M, et~al}\@. \bibtitle{{MobileNetV2}:
+  Inverted Residuals and Linear Bottlenecks}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition (CVPR)}\@.
+  \bibyear{2018}\thinspace{}\textnormal{:
+  }\bibpages{4510\thinspace{}\textnormal{--}\thinspace{}4520}\@.
+  \newline\url{http://dx.doi.org/10.1109/CVPR.2018.00474}\@.
+
 \bibitem{Zhang2000calibration}
 \bibauthor{ZHANG Z}\@. \bibtitle{A Flexible New Technique for Camera
   Calibration}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions on Pattern
@@ -68,6 +113,15 @@
   \bibvolume{22}\bibnumber{(11)}\thinspace{}\textnormal{:
   }\bibpages{1330\thinspace{}\textnormal{--}\thinspace{}1334}\@.
   \newline\url{http://dx.doi.org/10.1109/34.888718}\@.
+
+\bibitem{Borg2019EmbeddedVision}
+\bibauthor{BORG M\@, SALAH A~A\@, TORDECILLA R, et~al}\@. \bibtitle{Real-Time
+  Embedded Computer Vision for Mobile Robotics}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{Proceedings of the IEEE/RSJ International
+  Conference on Intelligent Robots and Systems (IROS)}\@.
+  \bibyear{2019}\thinspace{}\textnormal{:
+  }\bibpages{6289\thinspace{}\textnormal{--}\thinspace{}6295}\@.
+  \newline\url{http://dx.doi.org/10.1109/IROS40897.2019.8968235}\@.
 
 \bibitem{Han2009ADRC}
 \bibauthor{HAN J}\@. \bibtitle{From {PID} to Active Disturbance Rejection
@@ -98,6 +152,23 @@
   }\bibpages{1203\thinspace{}\textnormal{--}\thinspace{}1218}\@.
   \newline\url{http://dx.doi.org/10.1109/TAC.2008.923738}\@.
 
+\bibitem{Bertinetto2016SiamFC}
+\bibauthor{BERTINETTO L\@, VALMADRE J\@, HENRIQUES J~F, et~al}\@.
+  \bibtitle{Fully-Convolutional Siamese Networks for Object
+  Tracking}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{European Conference on
+  Computer Vision (ECCV)}\@. \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{850\thinspace{}\textnormal{--}\thinspace{}865}\@.
+  \newline\url{http://dx.doi.org/10.1007/978-3-319-46466-4_50}\@.
+
+\bibitem{Li2019SiamRPN}
+\bibauthor{LI B\@, WU W\@, WANG Q, et~al}\@. \bibtitle{{SiamRPN++}: Evolution
+  of Siamese Visual Tracking with Region Proposal Network}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{Proceedings of the IEEE/CVF Conference on
+  Computer Vision and Pattern Recognition (CVPR)}\@.
+  \bibyear{2019}\thinspace{}\textnormal{:
+  }\bibpages{4282\thinspace{}\textnormal{--}\thinspace{}4291}\@.
+  \newline\url{http://dx.doi.org/10.1109/CVPR.2019.00441}\@.
+
 \bibitem{Siegwart2011robots}
 \bibauthor{SIEGWART R\@, NOURBAKHSH I~R\@, SCARAMUZZA D}\@.
   \bibbooktitle{Introduction to Autonomous Mobile Robots}\bibmark{[M]}\@.
@@ -109,5 +180,13 @@
   \bibbooktitle{机器人学（第3版）}\bibmark{[M]}\@.
   \bibaddress{北京}\thinspace{}\textnormal{:
   }\bibpublisher{清华大学出版社}\@, \bibyear{2015}\@.
+
+\bibitem{Mueller2016GOTURN}
+\bibauthor{MUELLER M\@, SMITH N\@, GHANEM B}\@. \bibtitle{Learning to Track at
+  100 FPS with Deep Regression Networks}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{European Conference on Computer Vision (ECCV)}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{646\thinspace{}\textnormal{--}\thinspace{}662}\@.
+  \newline\url{http://dx.doi.org/10.1007/978-3-319-46448-0_39}\@.
 
 \end{thebibliography}

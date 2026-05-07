@@ -18,48 +18,54 @@ Database file #1: reference/ref.bib
 Warning--Require citedate: Hutchinson1996visualservo
 Warning--Require citedate: Redmon2016YOLO
 Warning--Require citedate: Dalal2005HOG
+Warning--Require citedate: Howard2017MobileNet
+Warning--Require citedate: Sandler2018MobileNetV2
 Warning--Require citedate: Zhang2000calibration
+Warning--Require citedate: Borg2019EmbeddedVision
 Warning--Require citedate: Han2009ADRC
 Warning--Require citedate: Mahony2008IMU
-You've used 12 entries,
+Warning--Require citedate: Bertinetto2016SiamFC
+Warning--Require citedate: Li2019SiamRPN
+Warning--Require citedate: Mueller2016GOTURN
+You've used 22 entries,
             3107 wiz_defined-function locations,
-            806 strings with 8163 characters,
-and the built_in function-call counts, 17373 in all, are:
-= -- 1830
-> -- 38
-< -- 86
-+ -- 1441
-- -- 117
-* -- 564
-:= -- 1898
+            874 strings with 10470 characters,
+and the built_in function-call counts, 38602 in all, are:
+= -- 4210
+> -- 77
+< -- 174
++ -- 3319
+- -- 260
+* -- 1067
+:= -- 4249
 add.period$ -- 0
-call.type$ -- 12
-change.case$ -- 48
+call.type$ -- 22
+change.case$ -- 106
 chr.to.int$ -- 6
-cite$ -- 18
-duplicate$ -- 2393
-empty$ -- 725
-format.name$ -- 96
-if$ -- 4592
+cite$ -- 34
+duplicate$ -- 5478
+empty$ -- 1549
+format.name$ -- 212
+if$ -- 10286
 int.to.chr$ -- 0
-int.to.str$ -- 12
+int.to.str$ -- 22
 missing$ -- 0
-newline$ -- 63
-num.names$ -- 12
-pop$ -- 257
+newline$ -- 93
+num.names$ -- 22
+pop$ -- 574
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 163
+skip$ -- 322
 stack$ -- 0
-substring$ -- 1993
-swap$ -- 556
+substring$ -- 4593
+swap$ -- 1039
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 234
-width$ -- 14
-write$ -- 198
-(There were 6 warnings)
+warning$ -- 12
+while$ -- 517
+width$ -- 24
+write$ -- 334
+(There were 12 warnings)

@@ -36,7 +36,7 @@
 
 （2）\textbf{云台节点启动}：初始化GPIO与基础外设，调用\texttt{laser\_gimbal\_system\_init}完成电机管理器建立、电机扫描、云台参数绑定、电机使能与回零；
 
-（3）\textbf{视觉节点启动}：Linux侧加载视觉模型与目标管理模块，建立与云台主控的数据通道并开始输出目标信息；
+（３）\textbf{视觉节点启动}：Linux侧加载视觉模型与目标管理模块，基于嵌入式视觉系统框架\cite{Borg2019EmbeddedVision}，建立与云台主控的数据通道并开始输出目标信息；
 
 （4）\textbf{闭环协同运行}：云台节点持续接收视觉目标输入与IMU状态量，计算双轴控制量并执行瞄准；底盘节点独立执行循迹与速度闭环，同时按任务状态与上层指令完成机动。
 系统总体程序流程图如图\ref{fig:program-flow}所示，左侧为视觉与云台控制链路，右侧为底盘循迹控制链路，两条链路并行运行、通过接口协同。
@@ -106,7 +106,7 @@ static void vision_tracker_thread_entry(void *parameter)
 
 \subsection{视觉线程架构与数据流}
 
-视觉端采用“三线程+双队列”结构：
+视觉端采用"三线程+双队列"结构，该架构吸收了孪生网络\cite{Bertinetto2016SiamFC}和区域提议网络\cite{Li2019SiamRPN}的实时追踪思想：
 
 （1）\textbf{读取线程}\texttt{read\_thread\_func}：持续从摄像头读取帧，并通过\texttt{frame\_queue(maxsize=1)}仅保留最新一帧，降低处理时延累积；
 
