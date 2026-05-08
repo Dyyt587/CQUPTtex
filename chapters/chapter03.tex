@@ -8,23 +8,18 @@
 
 瞄准模块以STM32H743核心板为中心，外围扩展RS485电机总线接口、HiPNUC IMU串口接口和视觉串口接口。电路原理图如图\ref{fig:aim-schematic}所示，PCB布局如图\ref{fig:aim-pcb}所示。
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{images/chapters/fig-aim-schematic.png}
-\caption{瞄准模块电路原理图}
-\label{fig:aim-schematic}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.65\textwidth]{images/chapters/fig-aim-pcb.png}
-\caption{瞄准模块电路PCB布局}
-\label{fig:aim-pcb}
+\subfigure[瞄准模块电路原理图\label{fig:aim-schematic}]{{\includegraphics[width=0.58\textwidth]{images/chapters/fig-aim-schematic.png}}}
+\hfill
+\subfigure[瞄准模块电路PCB布局\label{fig:aim-pcb}]{{\includegraphics[width=0.36\textwidth]{images/chapters/fig-aim-pcb.png}}}
+\caption{瞄准模块电路原理图与PCB布局}
+\label{fig:aim-board}
 \end{figure}
 
 原理图中，STM32H7通过若干GPIO扩展了电机RS485收发器、IMU UART接口及指示LED等外围器件；PCB布局充分考虑了高频信号与电源回路的分离，减少干扰。图\ref{fig:stm32h7-board}为所用STM32H743核心板实物图，芯片封装为LQFP144，板载Winbond W9825G6KH-6I外扩SDRAM，具备充足的运行内存供RT-Thread操作系统及多线程控制任务使用。
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.55\textwidth]{images/chapters/fig-stm32h7-board.png}
 \caption{STM32H743核心板实物图}
@@ -80,7 +75,7 @@
 
 系统上电后，主控扫描RS485总线发现ID\,1与ID\,2两台电机，完成云台初始化参数绑定、角度限位设置与回零动作，随后进入待命状态等待上层控制指令。MS4010 v3电机实物如图\ref{fig:ms4010-motor}所示，机身侧面的DIP拨码开关用于设定RS485设备地址（即电机ID），四位拨码对应二进制编码；底部印有RS485差分信号接线标识及电源正负极标注，安装时需严格核对极性以防驱动器损坏。
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.45\textwidth]{images/chapters/fig-ms4010-motor.png}
 \caption{MS4010 v3云台步进电机实物图}
@@ -93,18 +88,13 @@
 
 系统采用12\,V锂电池统一供电，经TPS5400 DC-DC降压模块分别产生5\,V与3.3\,V轨为各子模块供电。电源电路原理图与PCB如图\ref{fig:power-schematic}和图\ref{fig:power-pcb}所示。
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{images/chapters/fig-power-schematic.png}
-\caption{电源电路原理图}
-\label{fig:power-schematic}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.55\textwidth]{images/chapters/fig-power-pcb.png}
-\caption{电源电路PCB布局}
-\label{fig:power-pcb}
+\subfigure[电源电路原理图\label{fig:power-schematic}]{{\includegraphics[width=1\textwidth]{images/chapters/fig-power-schematic.png}}}
+\hfill
+\subfigure[电源电路PCB布局\label{fig:power-pcb}]{{\includegraphics[width=1\textwidth]{images/chapters/fig-power-pcb.png}}}
+\caption{电源电路原理图与PCB布局}
+\label{fig:power-board}
 \end{figure}
 
 电源设计采用双路TPS5400降压芯片，保证各节点在满载条件下的供电稳定性；接线端子处增加滤波电容，抑制电机启停产生的电源纹波对信号链路的干扰。
@@ -115,23 +105,18 @@
 
 底盘子系统以MSPM0G3507（Arm Cortex-M0+，80\,MHz）为主控，连接八路模拟量灰度传感器与MG513X减速电机编码器。相比数字量灰度传感器，模拟量传感器可输出连续电压信号，内置自动校准功能，无需每次重启重新标定阈值，更有利于差速Cloud PID控制的丝滑运行。底盘控制电路原理图与实物如图\ref{fig:chassis-schematic}和图\ref{fig:chassis-pcb}所示。
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{images/chapters/fig-chassis-schematic.png}
-\caption{自动循迹底盘电路原理图}
-\label{fig:chassis-schematic}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.65\textwidth]{images/chapters/fig-chassis-board.png}
-\caption{自动循迹底盘电路PCB实物图}
-\label{fig:chassis-pcb}
+\subfigure[自动循迹底盘电路原理图\label{fig:chassis-schematic}]{{\includegraphics[width=0.8\textwidth]{images/chapters/fig-chassis-schematic.png}}}
+\hfill
+\subfigure[自动循迹底盘电路PCB实物图\label{fig:chassis-pcb}]{{\includegraphics[width=0.8\textwidth]{images/chapters/fig-chassis-board.png}}}
+\caption{自动循迹底盘电路原理图与PCB实物图}
+\label{fig:chassis-board}
 \end{figure}
 
 底盘PCB集成了MSPM0G3507核心、电机驱动H桥电路、灰度传感器ADC接口与编码器采样电路；板载TPS5400为主控和传感器分别提供稳压；布局时将大电流电机驱动区与信号采集区隔开，降低电磁干扰。图\ref{fig:mspm0g-board}为WHEELTEC C07A底盘核心板实物图，核心芯片为MSPM0G3507，板上集成两颗用户按键可触发运行模式切换，电机驱动与灰度传感器接口通过排针引出，便于扩展与更换。
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.55\textwidth]{images/chapters/fig-mspm0g-board.png}
 \caption{WHEELTEC C07A底盘核心板（MSPM0G3507）实物图}
@@ -146,4 +131,4 @@
 
 \section{本章小结}
 
-本章完成了主控、传感、视觉、执行与保护模块的硬件设计说明，明确了整机连接和联调重点，为软件开发与系统测试提供硬件基础。
+本章在总体架构与器件选型的基础上，详细给出主控最小系统、IMU采集电路、图像采集与接口、云台驱动及电源与抗干扰设计等硬件子模块的电路思路与实现要点，包含原理图、PCB布局与接口定义。通过对供电、去耦、信号隔离与总线终端匹配的工程化处理，提升了测量可靠性与执行稳定性，为后续软件联调、整机集成与实验验证提供了可复现的硬件基础。

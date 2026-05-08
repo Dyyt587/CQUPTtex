@@ -15,57 +15,61 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference/ref.bib
+Warning--I didn't find a database entry for "Ren2015FasterRCNN"
+Warning--I didn't find a database entry for "Redmon2018YOLOv3"
+Warning--I didn't find a database entry for "Howard2017MobileNet"
 Warning--Require citedate: Hutchinson1996visualservo
+Warning--Require citedate: moosmann2023tinyissimoyoloquantizedlowmemoryfootprint
+Warning--Require citedate: boyle2024dsortmcudetectingsmallobjects
+Warning--Require citedate: hollard2025leyolonewembeddedarchitecture
+Warning--Require citedate: yao2025edgepoint2compactdescriptorssuperior
+Warning--Require citedate: zhang2024temporalcorrelationmeetsembedding
+Warning--Require citedate: wang2025yoloerealtimeseeing
+Warning--Require citedate: xiao2025fbrtyolofasterbetterrealtime
+Warning--Require booktitle: Redmon2016YOLO
 Warning--Require citedate: Redmon2016YOLO
-Warning--Require citedate: Dalal2005HOG
-Warning--Require citedate: Howard2017MobileNet
 Warning--Require citedate: Sandler2018MobileNetV2
 Warning--Require citedate: Zhang2000calibration
-Warning--Require citedate: Borg2019EmbeddedVision
 Warning--Require citedate: Han2009ADRC
-Warning--Require citedate: Mahony2008IMU
-Warning--Require citedate: Bertinetto2016SiamFC
-Warning--Require citedate: Li2019SiamRPN
-Warning--Require citedate: Mueller2016GOTURN
-You've used 22 entries,
+You've used 15 entries,
             3107 wiz_defined-function locations,
-            874 strings with 10470 characters,
-and the built_in function-call counts, 38602 in all, are:
-= -- 4210
-> -- 77
-< -- 174
-+ -- 3319
-- -- 260
-* -- 1067
-:= -- 4249
+            829 strings with 9770 characters,
+and the built_in function-call counts, 26980 in all, are:
+= -- 3014
+> -- 56
+< -- 127
++ -- 2493
+- -- 185
+* -- 732
+:= -- 3164
 add.period$ -- 0
-call.type$ -- 22
-change.case$ -- 106
-chr.to.int$ -- 6
-cite$ -- 34
-duplicate$ -- 5478
-empty$ -- 1549
-format.name$ -- 212
-if$ -- 10286
+call.type$ -- 15
+change.case$ -- 82
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 3737
+empty$ -- 906
+format.name$ -- 164
+if$ -- 7200
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 15
 missing$ -- 0
-newline$ -- 93
-num.names$ -- 22
-pop$ -- 574
+newline$ -- 72
+num.names$ -- 15
+pop$ -- 352
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 322
+skip$ -- 209
 stack$ -- 0
-substring$ -- 4593
-swap$ -- 1039
+substring$ -- 3177
+swap$ -- 639
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 12
-while$ -- 517
-width$ -- 24
-write$ -- 334
-(There were 12 warnings)
+warning$ -- 13
+while$ -- 338
+width$ -- 17
+write$ -- 229
+(There were 16 warnings)
