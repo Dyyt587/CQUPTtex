@@ -1,3 +1,4 @@
+\usepackage{setspace}
 \usepackage{graphicx} %绘图
 \usepackage{pifont} %圆圈1，如①
 \usepackage{booktabs} %绘制三线表
@@ -85,10 +86,17 @@
 
 \geometry{a4paper,top=3cm,bottom=2.5cm,left=2.5cm,right=2.5cm}
 
-% 设置行间距 1.5倍
-\linespread{1.0}\selectfont
+% % 设置行间距 1.5倍
+% \onehalfspacing
+
+\linespread{1.5}\selectfont
 % 设置段与段之间的垂直距离 \parskip默认橡皮长度是0pt plus 1pt
 \setlength{\parskip}{0pt}
+% 正文首行缩进，符合学校模板要求
+\setlength{\parindent}{2em}
+\emergencystretch=1.5em
+% 允许页面底部不强制对齐，减少 underfull vbox 警告
+\raggedbottom
 % \setlength{\parindent}{0pt}
 
 %设置字体
@@ -155,6 +163,7 @@
     \fancyhead[CE]{\songti\xiaowu 重庆邮电大学本科毕业设计（论文）}
 }
 
+
 %设置双线页脚
 \makeatletter
 \def\footrule{
@@ -163,7 +172,7 @@
     \vskip 1pt
     \hrule\@height 0pt \@width\headwidth %下面线为1pt粗
     \vskip-2\headrulewidth\vskip-1.2pt}    %两条线的距离1pt
-    \vspace{8mm}}     %双线与下面正文之间的垂直间距
+    \vspace{2mm}}     %双线与下面正文之间的垂直间距
 \makeatother
 
 %设置文章格式
@@ -176,26 +185,22 @@
     bibname={参考文献},
     appendixname={附录},
     chapter={
-        beforeskip={0pt},
+        beforeskip={17pt},
+        afterskip={16.5pt},
         nameformat={\heiti\sanhao\centering},
         number={\arabic{chapter}},
         titleformat={\heiti\sanhao\centering},
     },
     section={
         format={\heiti\sihao},
-        beforeskip={1.5ex},
-        afterskip={0.5ex},
+        beforeskip={13pt},
+        afterskip={13pt},
     },
     subsection={
         format={\heiti\xiaosi},
-        beforeskip={1.5ex},
-        afterskip={0.5ex},
+        beforeskip={13pt},
+        afterskip={13pt},
     },
-    subsubsection={
-        format={\heiti\xiaosi},
-        beforeskip={1.5ex},
-        afterskip={0.5ex},
-    }
 }
 
 % 目录中的章加点
