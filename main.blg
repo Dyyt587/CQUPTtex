@@ -15,9 +15,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference/ref.bib
-Warning--I didn't find a database entry for "Ren2015FasterRCNN"
 Warning--I didn't find a database entry for "Redmon2018YOLOv3"
-Warning--I didn't find a database entry for "Howard2017MobileNet"
 Warning--Require citedate: Hutchinson1996visualservo
 Warning--Require citedate: moosmann2023tinyissimoyoloquantizedlowmemoryfootprint
 Warning--Require citedate: boyle2024dsortmcudetectingsmallobjects
@@ -26,50 +24,48 @@ Warning--Require citedate: yao2025edgepoint2compactdescriptorssuperior
 Warning--Require citedate: zhang2024temporalcorrelationmeetsembedding
 Warning--Require citedate: wang2025yoloerealtimeseeing
 Warning--Require citedate: xiao2025fbrtyolofasterbetterrealtime
-Warning--Require booktitle: Redmon2016YOLO
-Warning--Require citedate: Redmon2016YOLO
 Warning--Require citedate: Sandler2018MobileNetV2
 Warning--Require citedate: Zhang2000calibration
 Warning--Require citedate: Han2009ADRC
-You've used 15 entries,
+You've used 14 entries,
             3107 wiz_defined-function locations,
-            829 strings with 9770 characters,
-and the built_in function-call counts, 26980 in all, are:
-= -- 3014
-> -- 56
-< -- 127
-+ -- 2493
-- -- 185
-* -- 732
-:= -- 3164
+            820 strings with 9516 characters,
+and the built_in function-call counts, 25054 in all, are:
+= -- 2789
+> -- 52
+< -- 118
++ -- 2291
+- -- 173
+* -- 688
+:= -- 2915
 add.period$ -- 0
-call.type$ -- 15
-change.case$ -- 82
+call.type$ -- 14
+change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 3737
-empty$ -- 906
-format.name$ -- 164
-if$ -- 7200
+cite$ -- 25
+duplicate$ -- 3482
+empty$ -- 857
+format.name$ -- 152
+if$ -- 6668
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 72
-num.names$ -- 15
-pop$ -- 352
+newline$ -- 69
+num.names$ -- 14
+pop$ -- 335
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 209
+skip$ -- 194
 stack$ -- 0
-substring$ -- 3177
-swap$ -- 639
+substring$ -- 2952
+swap$ -- 611
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 338
-width$ -- 17
-write$ -- 229
-(There were 16 warnings)
+warning$ -- 11
+while$ -- 319
+width$ -- 16
+write$ -- 218
+(There were 12 warnings)

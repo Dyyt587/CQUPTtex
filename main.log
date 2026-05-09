@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.18)  9 MAY 2026 02:09
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.18)  9 MAY 2026 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,7 +1126,7 @@ Package fontspec Info:
 (fontspec)             <->"SimSun/OT:script=hani;language=dflt;embolden=4;"
 
 \Mylen=\skip137
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 11.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 13.
 \Mylentwo=\skip138
 File: images/logo/logo1.jpg Graphic file (type bmp)
 <images/logo/logo1.jpg>
@@ -1231,7 +1231,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[6])
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
+
+[7])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -1243,18 +1251,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[7]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
-
-[8
-
-
-]
+[8]
 \openout2 = `chapters/chapter01.aux'.
 
  (./chapters/chapter01.tex
@@ -1269,6 +1266,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 
+
+
 ]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1279,7 +1278,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
-LaTeX Warning: Citation `Ren2015FasterRCNN' on page 3 undefined on input line 32.
+LaTeX Warning: Citation `Redmon2018YOLOv3' on page 3 undefined on input line 38.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1289,15 +1288,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
 [3]
-
-LaTeX Warning: Citation `Redmon2018YOLOv3' on page 4 undefined on input line 38.
-
-
-LaTeX Warning: Citation `Ren2015FasterRCNN' on page 4 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Howard2017MobileNet' on page 4 undefined on input line 44.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1390,9 +1380,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 第3章
-
-LaTeX Warning: Reference `fig:aim-pcb' on page 13 undefined on input line 9.
-
 File: images/chapters/fig-aim-schematic.png Graphic file (type bmp)
 <images/chapters/fig-aim-schematic.png>
 File: images/chapters/fig-stm32h7-board.png Graphic file (type bmp)
@@ -1657,6 +1644,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
 [37]
+File: images/chapters/run-test.png Graphic file (type bmp)
+<images/chapters/run-test.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1664,10 +1654,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[38]
-File: images/chapters/run-test.png Graphic file (type bmp)
-<images/chapters/run-test.png>
-)
+[38])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1700,7 +1687,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[41]
+[41])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1708,7 +1695,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[42])
+[42] (./chapters/ref.tex (./main.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.49998pt, for example:
@@ -1716,27 +1703,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[43]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
-
-[44
+[43
 
 
 
-] (./chapters/ref.tex (./main.bbl
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
-
-[45
 
 ]))
 
@@ -1746,7 +1716,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[46]
+[44]
 \openout2 = `chapters/thanks.aux'.
 
  (./chapters/thanks.tex)
@@ -1757,7 +1727,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[47
+[45
 
 
 ]
@@ -1769,32 +1739,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
 (hyperref)                replaced by space on input line 3.
 
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Microsoft YaHei Bold/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Microsoft YaHei/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'MicrosoftYaHei(0)' created for font
-(fontspec)             'Microsoft YaHei' with options
-(fontspec)             [Script={CJK},BoldFont={* Bold}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
-(fontspec)             YaHei/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Microsoft YaHei
-(fontspec)             Bold/OT:script=hani;language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
-(fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
-
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1803,7 +1747,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[48
+[46
 
 
 
@@ -1825,7 +1769,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.49998pt}.
 
-[49
+[47
 
 
 
@@ -1843,15 +1787,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8FA9D7BDDD84519EBB061619BF04E330;12195.
+(rerunfilecheck)             Checksum: 861A301139512E51AFB60B121D14AA18;11862.
  ) 
 Here is how much of TeX's memory you used:
- 24889 strings out of 468168
- 524383 string characters out of 5436524
- 1239333 words of memory out of 5000000
- 53072 multiletter control sequences out of 15000+600000
- 639711 words of font info for 152 fonts, out of 8000000 for 9000
+ 24752 strings out of 468168
+ 517493 string characters out of 5436524
+ 1270296 words of memory out of 5000000
+ 52951 multiletter control sequences out of 15000+600000
+ 639623 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,18n,111p,1228b,1396s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (59 pages).
+Output written on main.pdf (57 pages).

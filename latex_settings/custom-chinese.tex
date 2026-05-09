@@ -185,7 +185,7 @@
     bibname={参考文献},
     appendixname={附录},
     chapter={
-        beforeskip={17pt},
+        beforeskip={-17.5pt},
         afterskip={16.5pt},
         nameformat={\heiti\sanhao\centering},
         number={\arabic{chapter}},
@@ -207,7 +207,9 @@
 \usepackage[titles]{tocloft}
 \renewcommand{\cftdot}{$\cdot$}
 \renewcommand{\cftdotsep}{1.5}
-\setlength{\cftbeforechapskip}{10pt}
+\setlength{\cftbeforechapskip}{0.5em}
+\setlength{\cftbeforesecskip}{0.5em}
+\setlength{\cftbeforesubsecskip}{0.5em}
 
 \renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}}
 \renewcommand{\cftchapdotsep}{\cftdotsep}
@@ -221,9 +223,12 @@
 \makeatother
 
 % 设置目录字体尺寸
-\renewcommand{\cftchapfont}{\songti\xiaosi}
-\renewcommand{\cftsecfont}{\songti\wuhao}
-\renewcommand{\cftsubsecfont}{\songti\wuhao}
+\renewcommand{\cftchapfont}{\songti\xiaosi\mdseries}
+\renewcommand{\cftchappagefont}{\songti\xiaosi\mdseries}
+\renewcommand{\cftsecfont}{\songti\xiaosi\mdseries}
+\renewcommand{\cftsecpagefont}{\songti\xiaosi\mdseries}
+\renewcommand{\cftsubsecfont}{\songti\xiaosi\mdseries}
+\renewcommand{\cftsubsecpagefont}{\songti\xiaosi\mdseries}
 
 %使用代码排版包
 \usepackage{listings}

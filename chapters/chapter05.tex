@@ -25,11 +25,14 @@ IMU采样频率 & $\geq$100\,Hz & IMU官方上位机设置及出厂参数保证 
 
 \section{图像识别与跟踪效果测试}
 
-本节验证运动扰动条件下的识别与跟踪表现。基于近期嵌入式实时跟踪与回归范式\cite{zhang2024temporalcorrelationmeetsembedding}的思想，系统采用光敏留痕靶纸统计实时误差轨迹（靶纸各圆环半径相差1cm 车距靶纸1.5m-0.5m）。
+本节验证运动扰动条件下的识别与跟踪表现。基于近期嵌入式实时跟踪与回归范式\cite{zhang2024temporalcorrelationmeetsembedding}的思想，系统采用光敏留痕靶纸统计实时误差轨迹（靶纸各圆环半径相差1cm，车距靶纸1.5m~0.5m）。
 
+实验将在不同车速与转向工况下多次通过靶纸，记录每次通过的偏移印迹并统计峰值、均值及均方根误差（RMS），用于量化跟踪精度与瞬态抖动响应。数据后处理包括时间戳对齐、低通滤波与帧间同步，最终绘制偏差随时间的轨迹图和误差分布图以评估补偿方法的效果。
+
+实验效果如图 \ref{fig:vision-tracking-test}所示，图中紫色轨迹表示跟踪历史轨迹及其分布，最亮圆点表示当前帧的目标位置，靶纸上的黑色圆环表示误差范围。通过对比不同工况下的轨迹分布与误差统计，可以评估系统在动态条件下的跟踪稳定性与精度表现。
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.75\textwidth]{images/chapters/fig-vision-tracking-test.png}
+\includegraphics[width=0.8\textwidth]{images/chapters/fig-vision-tracking-test.png}
 \caption{图像识别与跟踪效果测试}
 \label{fig:vision-tracking-test}
 \end{figure}
@@ -40,7 +43,7 @@ IMU采样频率 & $\geq$100\,Hz & IMU官方上位机设置及出厂参数保证 
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.55\textwidth]{images/chapters/fig-imu-test.png}
+\includegraphics[width=0.8\textwidth]{images/chapters/fig-imu-test.png}
 \caption{IMU数据及稳定性测试}
 \label{fig:imu-test}
 \end{figure}
@@ -50,10 +53,10 @@ IMU采样频率 & $\geq$100\,Hz & IMU官方上位机设置及出厂参数保证 
 
 通过典型工况测试云台执行性能，记录系统的收敛时间、超调量与稳态误差，验证双闭环控制策略对瞄准精度的改善效果。
 
-测试工况分为两类：（1）底盘静止、目标静止——用于评估纯云台闭环的稳态误差基准（最亮光斑点）；（2）底盘匀速直线运动、目标静止——用于评估IMU前馈补偿对平台机动扰动的抑制效果（靶纸紫色轨迹）。
+测试工况分为两类：（1）底盘静止、目标静止——用于评估纯云台闭环的稳态误差基准（最亮光斑点）；（2）底盘匀速直线运动、目标静止——用于评估IMU前馈补偿对平台机动扰动的抑制效果（靶纸紫色轨迹）。效果如图\ref{fig:run-test}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.75\textwidth]{images/chapters/run-test.png}
+\includegraphics[width=0.8\textwidth]{images/chapters/run-test.png}
 \caption{云台控制与稳态误差测试}
 \label{fig:run-test}
 \end{figure}

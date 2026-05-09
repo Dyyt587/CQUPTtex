@@ -47,6 +47,8 @@ Linux视觉节点：基于通用计算平台运行OpenCV视觉管线，完成目
 
 \begin{table}[htbp]
 \centering
+\caption{系统性能指标要求}
+\label{tab:performance_requirements}
 \begin{tabular}{llll}
 \hline
 指标类别 & 指标项 & 设计目标 & 说明 \\
@@ -59,8 +61,6 @@ Linux视觉节点：基于通用计算平台运行OpenCV视觉管线，完成目
 重量约束 & 嵌入式系统重量 & $\leq$1000\,g & 含云台机构 \\
 \hline
 \end{tabular}
-\caption{系统性能指标要求}
-\label{tab:performance_requirements}
 \end{table}
 
 上述指标均基于具体工程需求确定。0.8\,mrad的稳态误差指标源于对典型室内应用场景的分析与估算；25\,FPS的视觉帧率确保像素闭环具备充足的带宽裕量；100\,Hz的IMU采样频率则保证前馈补偿能够对平台机动做出及时响应。

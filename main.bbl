@@ -51,9 +51,6 @@
 \bibitem{xiao2025fbrtyolofasterbetterrealtime}
 \bibauthor{XIAO Y\@, XU T\@, XIN Y, et~al}\@. \bibtitle{FBRT-YOLO: Faster and Better for Real-Time Aerial Image Detection}\bibmark{[J/OL]}\@. \bibjournal{arXiv preprint arXiv:2504.20670}\@, \bibyear{2025}\@. \newline\url{https://arxiv.org/abs/2504.20670}\@.
 
-\bibitem{Redmon2016YOLO}
-\bibauthor{REDMON J\@, DIVVALA S\@, GIRSHICK R, et~al}\@. \bibtitle{You Only Look Once: Unified, Real-Time Object Detection}\bibmark{[C/OL]} //\thinspace{}\@. \bibyear{2016}\@. \newline\url{http://dx.doi.org/10.1007/978-3-319-46466-4_50}\@.
-
 \bibitem{Liu2018DeepLearning}
 \bibauthor{刘昊\@, 王晓慧\@, 李培国}\@. \bibtitle{嵌入式计算机视觉中的轻量化深度学习方法}\bibmark{[J]}\@. \bibjournal{计算机研究与发展}\@, \bibyear{2018}\@, \bibvolume{55}\bibnumber{(10)}\thinspace{}\textnormal{: }\bibpages{2213\thinspace{}\textnormal{--}\thinspace{}2229}\@.
 

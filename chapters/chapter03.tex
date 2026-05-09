@@ -6,7 +6,7 @@
 
 主控电路包含最小系统、电源管理、时钟与下载调试接口。设计中重点保证供电稳定、复位可靠与信号完整，以提高系统连续运行能力。
 
-瞄准模块以STM32H743核心板为中心，外围扩展RS485电机总线接口、HiPNUC IMU串口接口和视觉串口接口。电路原理图如图\ref{fig:aim-schematic}所示，PCB布局如图\ref{fig:aim-pcb}所示。
+瞄准模块以STM32H743核心板为中心，外围扩展RS485电机总线接口、HiPNUC IMU串口接口和视觉串口接口。电路原理图如图\ref{fig:aim-schematic}所示。
 
 \begin{figure}[H]
 \centering
@@ -37,10 +37,6 @@
 
 对于角速度小幅波动，工程采用死区处理策略，避免将传感噪声直接放大到执行端，提升闭环控制品质。
 
-\subsection{IMU接口连接与抗干扰设计}
-
-在接口连线中考虑去耦、电源滤波与布线隔离，降低电机驱动等强干扰源对惯性数据的影响，提升测量可靠性。
-
 \FloatBarrier
 
 \section{图像采集与通信电路}
@@ -60,7 +56,7 @@
 
 \subsection{图像数据链路设计}
 
-图像链路设计关注带宽、延迟与稳定性，确保视频流在实验帧率下可持续传输，为实时跟踪与控制反馈提供数据支持。
+图像链路设计关注带宽、延迟与稳定性，确保视频流在实验帧率下可持续传输，为实时跟踪与控制反馈提供数据支持。摄像头与linux主机通过USB 3.0接口连接，链路带宽可达5\,Gbps，远超720p@30\,FPS视频流的需求（约0.1\,Gbps），满足高带宽和低延时需求。同时使用屏蔽电缆线连接，提供更高的传输可靠性。
 
 \FloatBarrier
 
@@ -74,7 +70,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.45\textwidth]{images/chapters/fig-ms4010-motor.png}
+\includegraphics[width=0.8\textwidth]{images/chapters/fig-ms4010-motor.png}
 \caption{MS4010 v3云台步进电机实物图}
 \label{fig:ms4010-motor}
 \end{figure}
@@ -87,9 +83,9 @@
 
 \begin{figure}[H]
 \centering
-\subfigure[电源电路原理图\label{fig:power-schematic}]{{\includegraphics[width=0.6\textwidth]{images/chapters/fig-power-schematic.png}}}
+\subfigure[电源电路原理图\label{fig:power-schematic}]{{\includegraphics[width=0.7\textwidth]{images/chapters/fig-power-schematic.png}}}
 \hfill
-\subfigure[电源电路PCB布局\label{fig:power-pcb}]{{\includegraphics[width=0.6\textwidth]{images/chapters/fig-power-pcb.png}}}
+\subfigure[电源电路PCB布局\label{fig:power-pcb}]{{\includegraphics[width=0.7\textwidth]{images/chapters/fig-power-pcb.png}}}
 \caption{电源电路原理图与PCB布局}
 \label{fig:power-board}
 \end{figure}

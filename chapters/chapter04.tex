@@ -138,16 +138,14 @@ def read_thread_func(cap):
             pass  # 并发竞争时忽略
 \end{lstlisting}
 
-发送线程负责将处理结果格式化为\texttt{@x,y,flag,\#}协议帧并通过串口发送，核心代码如代码\ref{code:send-thread}所示。
+发送线程负责将处理结果格式化并通过串口发送，核心代码如代码\ref{code:send-thread}所示。
 
 \begin{lstlisting}[style=pythonstyle, caption={视觉发送线程与串口协议帧（EDC\_Opencv.py）}, label=code:send-thread]
 def send_thread_func(ser):
-    """线程3：从队列取结果并按协议发送"""
-    while running_event.is_set():
+    while running_event.is_set():    """线程3：从队列取结果并按协议发送"""
         try:
             data = data_queue.get(timeout=1)
-            # 固定帧格式：@x,y,flag,#
-            msg = f"@{data['x']:.3f},{data['y']:.3f},{data['flag']:.1f},#"
+            msg = f"@{data['x']:.3f},{data['y']:.3f},{data['flag']:.1f},#"  
             if ser and ser.is_open:
                 ser.write(msg.encode('utf-8'))
         except queue.Empty:
@@ -159,11 +157,11 @@ def send_thread_func(ser):
 
 轮廓处理遵循“先粗筛、后精筛”策略：
 
-（1）多轮廓合并：\texttt{merge\_close\_contours}按面积差与质心距离合并近邻轮廓，抑制边缘断裂造成的重复候选；
+1）多轮廓合并：\texttt{merge\_close\_contours}按面积差与质心距离合并近邻轮廓，抑制边缘断裂造成的重复候选；
 
-（2）几何约束：要求候选轮廓近似四边形，面积位于设定区间且宽高比满足约束；
+2）几何约束：要求候选轮廓近似四边形，面积位于设定区间且宽高比满足约束；
 
-（3）尺寸一致性校验：\texttt{find\_a4\_paper\_contours}利用\texttt{solvePnP}和重投影尺寸估计，判断候选是否与A4目标物理尺寸一致。
+3）尺寸一致性校验：\texttt{find\_a4\_paper\_contours}利用\texttt{solvePnP}和重投影尺寸估计，判断候选是否与A4目标物理尺寸一致。
 
 仅当上述条件同时满足时，目标才进入后续位姿解算与下发链路。该“形状+尺度”双重判据可显著降低误检。
 几何筛选与PnP尺寸核查的关键代码如代码\ref{code:a4-filter}所示。函数先通过\texttt{solvePnP}解算位姿，再利用重投影尺寸估计与A4物理尺寸比对，拒绝误匹配的候选轮廓。
@@ -220,11 +218,11 @@ tvec=[T_x,T_y,T_z]^\top
 
 工程通过\texttt{find\_target\_count}与\texttt{lose\_target\_count}实现轻量状态机：
 
-（1）检测稳定阶段输出当前目标坐标；
+1）检测稳定阶段输出当前目标坐标；
 
-（2）短时丢失阶段保持上次有效结果，避免控制突跳；
+2）短时丢失阶段保持上次有效结果，避免控制突跳；
 
-（3）持续丢失阶段回退到中心搜索点\((640,240)\)，并保留最近一次姿态估计作为过渡信息。
+3）持续丢失阶段回退到中心搜索点\((640,240)\)，并保留最近一次姿态估计作为过渡信息。
 
 视觉端最终以固定格式发送：\texttt{@x,y,flag,\#}。其中\texttt{flag}用于表征当前帧目标状态，云台主控据此决定跟踪、保持或搜索策略。通过该协议，Linux视觉节点与STM32云台节点形成低耦合、可扩展的数据接口。
 
@@ -233,17 +231,14 @@ tvec=[T_x,T_y,T_z]^\top
 \begin{lstlisting}[style=cstyle, caption={串口协议帧解析状态机（usart\_dataparsing.c）}, label=code:uart-parser]
 void Usart_Dataparsiring_Handle(Data_Parsiring_Typedef *data,
                                 uint8_t rx_data)
-{
-    if (data->statue == 0 && rx_data == data->frame_start) {
+{   if (data->statue == 0 && rx_data == data->frame_start) {
         memset(data->frame_string, '\0', 100);
         data->frame_lenght = 0;
         data->statue = 1;                       // 进入帧接收状态
-    } else if (data->statue == 1
-               && rx_data != data->frame_end) { // 数据段
+    } else if (data->statue == 1 && rx_data != data->frame_end) { // 数据段
         data->frame_string[data->frame_lenght] = rx_data;
         data->frame_lenght++;
-    } else if (data->statue == 1
-               && rx_data == data->frame_end) { // 帧结束
+    } else if (data->statue == 1 && rx_data == data->frame_end) { // 帧结束
         Usart_Dataparsiring(data);              // 解析并分类各字段
         // 将解析结果送入追踪器：float[0]=x, [1]=y, [2]=confidence
         vision_tracker_input_target(
@@ -252,8 +247,7 @@ void Usart_Dataparsiring_Handle(Data_Parsiring_Typedef *data,
             camera_data.data_buff.float_data[1],
             camera_data.data_buff.float_data[2]);
         data->statue = 0;                       // 复位等待下一帧
-    }
-}
+    }}
 \end{lstlisting}
 
 \section{双闭环控制程序设计}
@@ -262,11 +256,11 @@ void Usart_Dataparsiring_Handle(Data_Parsiring_Typedef *data,
 
 外环以图像中心偏差为输入，通过APID控制器计算期望角速度输出。其核心目标是：
 
-（1）降低稳态指向误差；
+1）降低稳态指向误差；
 
-（2）在目标横向快速移动时维持可接受的动态超调；
+2）在目标横向快速移动时维持可接受的动态超调；
 
-（3）与内层补偿项协同，避免高频振荡。
+3）与内层补偿项协同，避免高频振荡。
 
 通过限制PID输出与偏差死区，工程在可达性与稳定性之间取得了折中。
 
