@@ -16,56 +16,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference/ref.bib
 Warning--I didn't find a database entry for "Redmon2018YOLOv3"
-Warning--Require citedate: Hutchinson1996visualservo
-Warning--Require citedate: moosmann2023tinyissimoyoloquantizedlowmemoryfootprint
-Warning--Require citedate: boyle2024dsortmcudetectingsmallobjects
-Warning--Require citedate: hollard2025leyolonewembeddedarchitecture
-Warning--Require citedate: yao2025edgepoint2compactdescriptorssuperior
-Warning--Require citedate: zhang2024temporalcorrelationmeetsembedding
-Warning--Require citedate: wang2025yoloerealtimeseeing
-Warning--Require citedate: xiao2025fbrtyolofasterbetterrealtime
-Warning--Require citedate: Sandler2018MobileNetV2
-Warning--Require citedate: Zhang2000calibration
-Warning--Require citedate: Han2009ADRC
 You've used 14 entries,
             3107 wiz_defined-function locations,
-            820 strings with 9516 characters,
-and the built_in function-call counts, 25054 in all, are:
+            805 strings with 9104 characters,
+and the built_in function-call counts, 25080 in all, are:
 = -- 2789
 > -- 52
 < -- 118
 + -- 2291
 - -- 173
-* -- 688
-:= -- 2915
+* -- 640
+:= -- 2904
 add.period$ -- 0
 call.type$ -- 14
 change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 25
+cite$ -- 14
 duplicate$ -- 3482
-empty$ -- 857
+empty$ -- 889
 format.name$ -- 152
-if$ -- 6668
+if$ -- 6743
 int.to.chr$ -- 0
 int.to.str$ -- 14
 missing$ -- 0
 newline$ -- 69
 num.names$ -- 14
-pop$ -- 335
+pop$ -- 324
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 194
+skip$ -- 238
 stack$ -- 0
 substring$ -- 2952
-swap$ -- 611
+swap$ -- 600
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
+warning$ -- 0
 while$ -- 319
 width$ -- 16
-write$ -- 218
-(There were 12 warnings)
+write$ -- 196
+(There was 1 warning)
