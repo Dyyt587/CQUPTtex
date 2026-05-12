@@ -1,0 +1,316 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arreola et~al.(2018)Arreola, De~Oca, Flores, Sanchez, and
+  Flores]{arreola2018improvement}
+Luis Arreola, A~Montes De~Oca, Alejandro Flores, J Sanchez, and Gerardo Flores.
+\newblock Improvement in the uav position estimation with low-cost gps, ins and
+  vision-based system: Application to a quadrotor uav.
+\newblock In \emph{2018 International Conference on Unmanned Aircraft Systems
+  (ICUAS)}, pages 1248--1254. IEEE, 2018.
+
+\bibitem[Banik et~al.(2025)Banik, Kim, Hovakimyan, Carlone, Thomas, and
+  Leveson]{banik2025integrating}
+Sandeep Banik, Jinrae Kim, Naira Hovakimyan, Luca Carlone, John Thomas, and
+  Nancy~G Leveson.
+\newblock Integrating vision systems and stpa for robust landing and take-off
+  in vtol aircraft.
+\newblock In \emph{AIAA SCITECH 2025 Forum}, page 1324, 2025.
+
+\bibitem[{Blender Online Community}(2024)]{blender2024}
+{Blender Online Community}.
+\newblock Blender, 2024.
+
+\bibitem[Corke et~al.(1996)]{corke1996visual}
+Peter~I Corke et~al.
+\newblock \emph{Visual Control of Robots: high-performance visual servoing}.
+\newblock Research Studies Press Taunton, UK, 1996.
+
+\bibitem[Cruz et~al.(2024)Cruz, Osayan, Moreno, and
+  Caduyac]{cruz2024performance}
+Anton Domini~Sta Cruz, Jayson Osayan, Luis~Rafael Moreno, and Rob~Christian
+  Caduyac.
+\newblock Performance of aruco detector in aruco marker detection using non-gps
+  drone.
+\newblock In \emph{Advancing Sustainable Science and Technology for a Resilient
+  Future}, pages 63--67. CRC Press, 2024.
+
+\bibitem[Galvane et~al.(2017)Galvane, Fleureau, Tariolle, and
+  Guillotel]{galvane2017automated}
+Quentin Galvane, Julien Fleureau, Francois-Louis Tariolle, and Philippe
+  Guillotel.
+\newblock Automated cinematography with unmanned aerial vehicles.
+\newblock \emph{arXiv preprint arXiv:1712.04353}, 2017.
+
+\bibitem[Guenard et~al.(2008)Guenard, Hamel, and Mahony]{guenard2008practical}
+Nicolas Guenard, Tarek Hamel, and Robert Mahony.
+\newblock A practical visual servo control for an unmanned aerial vehicle.
+\newblock \emph{IEEE Transactions on Robotics}, 24\penalty0 (2):\penalty0
+  331--340, 2008.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and
+  Dean]{hinton2015distillingknowledgeneuralnetwork}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network, 2015.
+
+\bibitem[Hutchinson et~al.(1996)Hutchinson, Hager, and
+  Corke]{hutchinson1996tutorial}
+Seth Hutchinson, Gregory~D Hager, and Peter~I Corke.
+\newblock A tutorial on visual servo control.
+\newblock \emph{IEEE transactions on robotics and automation}, 12\penalty0
+  (5):\penalty0 651--670, 1996.
+
+\bibitem[Kalaitzakis et~al.(2021)Kalaitzakis, Cain, Carroll, Ambrosi,
+  Whitehead, and Vitzilaios]{kalaitzakis2021fiducial}
+Michail Kalaitzakis, Brennan Cain, Sabrina Carroll, Anand Ambrosi, Camden
+  Whitehead, and Nikolaos Vitzilaios.
+\newblock Fiducial markers for pose estimation: Overview, applications and
+  experimental comparison of the artag, apriltag, aruco and stag markers.
+\newblock \emph{Journal of Intelligent \& Robotic Systems}, 101:\penalty0
+  1--26, 2021.
+
+\bibitem[Keipour et~al.(2022)Keipour, Pereira, Bonatti, Garg, Rastogi, Dubey,
+  and Scherer]{keipour2022visual}
+Azarakhsh Keipour, Guilherme~AS Pereira, Rogerio Bonatti, Rohit Garg, Puru
+  Rastogi, Geetesh Dubey, and Sebastian Scherer.
+\newblock Visual servoing approach to autonomous uav landing on a moving
+  vehicle.
+\newblock \emph{Sensors}, 22\penalty0 (17):\penalty0 6549, 2022.
+
+\bibitem[Kouris and Bouganis(2018)]{kouris2018learning}
+Alexandros Kouris and Christos-Savvas Bouganis.
+\newblock Learning to fly by myself: A self-supervised cnn-based approach for
+  autonomous navigation.
+\newblock In \emph{2018 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems (IROS)}, pages 1--9. IEEE, 2018.
+
+\bibitem[Kumar et~al.(2024)Kumar, Shamsi, Roy, and PB]{kumar2024tracking}
+Yogesh Kumar, Bassam~Pervez Shamsi, Sayan~Basu Roy, and Sujit PB.
+\newblock Tracking a planar target using image-based visual servoing technique.
+\newblock \emph{IEEE Transactions on Intelligent Vehicles}, 9\penalty0
+  (3):\penalty0 4362--4372, 2024.
+
+\bibitem[Lee et~al.(2012)Lee, Lim, Kim, Kim, and Seong]{lee2012adaptive}
+Daewon Lee, Hyon Lim, H~Jin Kim, Youdan Kim, and Kie~Jeong Seong.
+\newblock Adaptive image-based visual servoing for an underactuated quadrotor
+  system.
+\newblock \emph{Journal of Guidance, Control, and Dynamics}, 35\penalty0
+  (4):\penalty0 1335--1353, 2012.
+
+\bibitem[Li et~al.(2023)Li, Huang, Li, and Wang]{li2023design}
+Weijie Li, Weicheng Huang, Yinhua Li, and Li Wang.
+\newblock Design of joint control system for target detection uav and ground
+  vehicle based on yolo algorithm.
+\newblock In \emph{Proceedings of the 2023 11th International Conference on
+  Computer and Communications Management}, pages 70--75, 2023.
+
+\bibitem[Liang et~al.(2020)Liang, Chen, Zhao, and Xiu]{liang2020moving}
+Xiao Liang, Guodong Chen, Shirou Zhao, and Yiwei Xiu.
+\newblock Moving target tracking method for unmanned aerial vehicle/unmanned
+  ground vehicle heterogeneous system based on apriltags.
+\newblock \emph{Measurement and Control}, 53\penalty0 (3-4):\penalty0 427--440,
+  2020.
+
+\bibitem[Liu and Li(2019)]{liu2019image}
+Jingshu Liu and Yuan Li.
+\newblock An image based visual servo approach with deep learning for robotic
+  manipulation.
+\newblock \emph{arXiv preprint arXiv:1909.07727}, 2019.
+
+\bibitem[Marchand et~al.(2005)Marchand, Spindler, and Chaumette]{Marchand05b}
+E. Marchand, F. Spindler, and F. Chaumette.
+\newblock Visp for visual servoing: a generic software platform with a wide
+  class of robot control skills.
+\newblock \emph{IEEE Robotics and Automation Magazine}, 12\penalty0
+  (4):\penalty0 40--52, 2005.
+
+\bibitem[Mohamed et~al.(2021)Mohamed, Shaker, El-Sallab, and
+  Hadhoud]{mohamed2021insta}
+Eslam Mohamed, Abdelrahman Shaker, Ahmad El-Sallab, and Mayada Hadhoud.
+\newblock Insta-yolo: Real-time instance segmentation.
+\newblock \emph{arXiv preprint arXiv:2102.06777}, 2021.
+
+\bibitem[Mr{\'a}z et~al.(2020)Mr{\'a}z, Rodina, and Babinec]{mraz2020using}
+Eduard Mr{\'a}z, Jozef Rodina, and Andrej Babinec.
+\newblock Using fiducial markers to improve localization of a drone.
+\newblock In \emph{2020 23rd International Symposium on Measurement and Control
+  in Robotics (ISMCR)}, pages 1--5. IEEE, 2020.
+
+\bibitem[N{\"a}geli et~al.(2017)N{\"a}geli, Meier, Domahidi, Alonso-Mora, and
+  Hilliges]{nageli2017real}
+Tobias N{\"a}geli, Lukas Meier, Alexander Domahidi, Javier Alonso-Mora, and
+  Otmar Hilliges.
+\newblock Real-time planning for automated multi-view drone cinematography.
+\newblock \emph{ACM Transactions on Graphics (TOG)}, 36\penalty0 (4):\penalty0
+  1--10, 2017.
+
+\bibitem[Oktay et~al.(2018)Oktay, Schlemper, Folgoc, Lee, Heinrich, Misawa,
+  Mori, McDonagh, Hammerla, Kainz, Glocker, and
+  Rueckert]{oktay2018attentionunetlearninglook}
+Ozan Oktay, Jo Schlemper, Loic~Le Folgoc, Matthew Lee, Mattias Heinrich,
+  Kazunari Misawa, Kensaku Mori, Steven McDonagh, Nils~Y Hammerla, Bernhard
+  Kainz, Ben Glocker, and Daniel Rueckert.
+\newblock Attention u-net: Learning where to look for the pancreas, 2018.
+
+\bibitem[Olson(2011)]{olson2011apriltag}
+Edwin Olson.
+\newblock Apriltag: A robust and flexible visual fiducial system.
+\newblock In \emph{2011 IEEE international conference on robotics and
+  automation}, pages 3400--3407. IEEE, 2011.
+
+\bibitem[{Parrot Drones SAS}(2023)]{WhatisPa31:online}
+{Parrot Drones SAS}.
+\newblock {Parrot Sphinx}.
+\newblock Software, 2023.
+\newblock Simulation tool; Online; accessed 2025-06-20.
+
+\bibitem[Pathre et~al.(2024)Pathre, Gupta, Qureshi, Brunda, Brahmbhatt, and
+  Krishna]{pathre2024imagine2servo}
+Pranjali Pathre, Gunjan Gupta, M~Nomaan Qureshi, Mandyam Brunda, Samarth
+  Brahmbhatt, and K~Madhava Krishna.
+\newblock Imagine2servo: Intelligent visual servoing with diffusion-driven goal
+  generation for robotic tasks.
+\newblock In \emph{2024 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems (IROS)}, pages 13466--13472. IEEE, 2024.
+
+\bibitem[Qin et~al.(2023{\natexlab{a}})Qin, Yu, Go, and Liu]{qin2023perception}
+Chao Qin, Qiuyu Yu, HS~Helson Go, and Hugh H-T Liu.
+\newblock Perception-aware image-based visual servoing of aggressive quadrotor
+  uavs.
+\newblock \emph{IEEE/ASME Transactions on Mechatronics}, 28\penalty0
+  (4):\penalty0 2020--2028, 2023{\natexlab{a}}.
+
+\bibitem[Qin et~al.(2023{\natexlab{b}})Qin, Yu, Go, and Liu]{10140151}
+Chao Qin, Qiuyu Yu, H.~S.~Helson Go, and Hugh H.-T. Liu.
+\newblock Perception-aware image-based visual servoing of aggressive quadrotor
+  uavs.
+\newblock \emph{IEEE/ASME Transactions on Mechatronics}, 28\penalty0
+  (4):\penalty0 2020--2028, 2023{\natexlab{b}}.
+
+\bibitem[Rebbapragada et~al.(2024)Rebbapragada, Panda, and
+  Balasubramanian]{rebbapragada2024c2fdrone}
+Sairam~VC Rebbapragada, Pranoy Panda, and Vineeth~N Balasubramanian.
+\newblock C2fdrone: Coarse-to-fine drone-to-drone detection using vision
+  transformer networks.
+\newblock In \emph{2024 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pages 6627--6633. IEEE, 2024.
+
+\bibitem[Redmon et~al.(2016)Redmon, Divvala, Girshick, and
+  Farhadi]{redmon2016you}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 779--788, 2016.
+
+\bibitem[Riftiarrasyid et~al.(2024)Riftiarrasyid, Gaol, Soeparno, and
+  Arifin]{riftiarrasyid2024suitability}
+Mohammad~Faisal Riftiarrasyid, Ford~Lumban Gaol, Haryono Soeparno, and Yulyani
+  Arifin.
+\newblock Suitability of latest version of yolov11 in drone development
+  studies.
+\newblock In \emph{2024 7th International Seminar on Research of Information
+  Technology and Intelligent Systems (ISRITI)}, pages 504--509. IEEE, 2024.
+
+\bibitem[Ronneberger et~al.(2015)Ronneberger, Fischer, and
+  Brox]{ronneberger2015unetconvolutionalnetworksbiomedical}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation,
+  2015.
+
+\bibitem[Samadikhoshkho and Lipsett(2024)]{drones8110605}
+Zahra Samadikhoshkho and Michael~G. Lipsett.
+\newblock Visual servoing for aerial vegetation sampling systems.
+\newblock \emph{Drones}, 8\penalty0 (11), 2024.
+
+\bibitem[Sepahvand et~al.(2025)Sepahvand, Amiri, and
+  Janabi-Sharifi]{sepahvand2025deep}
+Shayan Sepahvand, Niloufar Amiri, and Farrokh Janabi-Sharifi.
+\newblock Deep visual servoing of an aerial robot using keypoint feature
+  extraction.
+\newblock In \emph{2025 International Conference on Unmanned Aircraft Systems
+  (ICUAS)}, pages 37--43. IEEE, 2025.
+
+\bibitem[Sun et~al.(2025)Sun, Wang, and Wang]{sun2025towards}
+Jingtao Sun, Yaonan Wang, and Danwei Wang.
+\newblock Towards real-world aerial vision guidance with categorical 6d pose
+  tracker.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 2025.
+
+\bibitem[Tang et~al.(2024{\natexlab{a}})Tang, Deng, Zhang, Jiang, Wang, and
+  Ke]{tang2024control}
+Jian Tang, Zhiyuan Deng, Hao Zhang, Tao Jiang, Chenyang Wang, and Zhiwu Ke.
+\newblock Control barrier function-based quadrotor interception control using
+  visual servoing.
+\newblock In \emph{2024 IEEE International Conference on Unmanned Systems
+  (ICUS)}, pages 319--324. IEEE, 2024{\natexlab{a}}.
+
+\bibitem[Tang et~al.(2024{\natexlab{b}})Tang, Deng, Zhang, Jiang, Wang, and
+  Ke]{tang2024visual}
+Jian Tang, Zhiyuan Deng, Hao Zhang, Tao Jiang, Chenyang Wang, and Zhiwu Ke.
+\newblock Visual servoing for quadrotor uavs: A survey.
+\newblock In \emph{2024 IEEE International Conference on Unmanned Systems
+  (ICUS)}, pages 325--330. IEEE, 2024{\natexlab{b}}.
+
+\bibitem[Team(2025)]{zhao2025hunyuan3d20scalingdiffusion}
+Tencent~Hunyuan3D Team.
+\newblock Hunyuan3d 2.0: Scaling diffusion models for high resolution textured
+  3d assets generation, 2025.
+
+\bibitem[Teuliere et~al.(2011)Teuliere, Eck, and Marchand]{teuliere2011chasing}
+Celine Teuliere, Laurent Eck, and Eric Marchand.
+\newblock Chasing a moving target from a flying uav.
+\newblock In \emph{2011 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}, pages 4929--4934. IEEE, 2011.
+
+\bibitem[Wawrla et~al.(2019)Wawrla, Maghazei, and
+  Netland]{wawrla2019applications}
+Lukas Wawrla, Omid Maghazei, and Torbj{\o}rn Netland.
+\newblock Applications of drones in warehouse operations.
+\newblock \emph{Whitepaper. ETH Zurich, D-MTEC}, 212:\penalty0 1--12, 2019.
+
+\bibitem[Yang and Quan(2020)]{yang2020autonomous}
+Kun Yang and Quan Quan.
+\newblock An autonomous intercept drone with image-based visual servo.
+\newblock In \emph{2020 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pages 2230--2236. IEEE, 2020.
+
+\bibitem[Yang et~al.(2024)Yang, Bai, She, and Quan]{yang2024high}
+Kun Yang, Chenggang Bai, Zhikun She, and Quan Quan.
+\newblock High-speed interception multicopter control by image-based visual
+  servoing.
+\newblock \emph{IEEE Transactions on Control Systems Technology}, 2024.
+
+\bibitem[Yang et~al.(2025)Yang, Lan, and Wang]{yang2025comparative}
+Ziyi Yang, Xin Lan, and Hui Wang.
+\newblock Comparative analysis of yolo series algorithms for uav-based highway
+  distress inspection: Performance and application insights.
+\newblock \emph{Sensors}, 25\penalty0 (5):\penalty0 1475, 2025.
+
+\bibitem[Zhang et~al.(2024)Zhang, Xiu, Hu, and Pan]{zhang2024vision}
+Changhao Zhang, Zengqi Xiu, Boxuan Hu, and Yuyi Pan.
+\newblock A vision-only drone formation waypoint navigation method.
+\newblock In \emph{2024 4th International Conference on Industrial Automation,
+  Robotics and Control Engineering (IARCE)}, pages 473--479. IEEE, 2024.
+
+\bibitem[Zhang et~al.(2017)Zhang, Yu, Jia, and Wang]{zhang2017autonomous}
+Yongwei Zhang, Yangguang Yu, Shengde Jia, and Xiangke Wang.
+\newblock Autonomous landing on ground target of uav by using image-based
+  visual servo control.
+\newblock In \emph{2017 36th Chinese Control Conference (CCC)}, pages
+  11204--11209. IEEE, 2017.
+
+\bibitem[Zhao et~al.(2024)Zhao, Tang, Li, Dong, Si, Lu, and
+  Panoutsos]{zhao2024real}
+Hongyu Zhao, Zezhi Tang, Zhenhong Li, Yi Dong, Yuancheng Si, Mingyang Lu, and
+  George Panoutsos.
+\newblock Real-time object detection and robotic manipulation for agriculture
+  using a yolo-based learning approach.
+\newblock In \emph{2024 IEEE International Conference on Industrial Technology
+  (ICIT)}, pages 1--6. IEEE, 2024.
+
+\end{thebibliography}

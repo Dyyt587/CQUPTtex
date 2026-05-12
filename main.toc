@@ -76,5 +76,16 @@
 \contentsline {section}{\numberline {6.3}后续研究工作展望}{42}{section.6.3}%
 \contentsline {chapter}{参考文献}{43}{chapter*.18}%
 \contentsline {chapter}{致谢}{45}{chapter*.19}%
-\contentsline {chapter}{附录A\hskip 1em\relax }{46}{chapter*.20}%
-\contentsline {chapter}{附录B\hskip 1em\relax 英文翻译}{47}{chapter*.21}%
+\contentsline {chapter}{附录A 英文文献翻译}{46}{chapter*.20}%
+\contentsline {section}{\numberline {6.4}文献来源}{46}{section.6.4}%
+\contentsline {section}{\numberline {6.5}摘要译文}{46}{section.6.5}%
+\contentsline {section}{\numberline {6.6}引言译文}{46}{section.6.6}%
+\contentsline {section}{\numberline {6.7}相关工作译文}{47}{section.6.7}%
+\contentsline {section}{\numberline {6.8}研究方法译文}{48}{section.6.8}%
+\contentsline {section}{\numberline {6.9}数据生成与仿真环境译文}{49}{section.6.9}%
+\contentsline {section}{\numberline {6.10}实验译文}{50}{section.6.10}%
+\contentsline {section}{\numberline {6.11}结果与讨论译文}{52}{section.6.11}%
+\contentsline {section}{\numberline {6.12}结论译文}{53}{section.6.12}%
+\contentsline {section}{\numberline {6.13}致谢译文}{54}{section.6.13}%
+\contentsline {section}{\numberline {6.14}译文说明}{54}{section.6.14}%
+\contentsline {chapter}{附录B 其他补充材料}{55}{chapter*.27}%

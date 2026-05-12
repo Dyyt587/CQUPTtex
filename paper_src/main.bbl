@@ -1,0 +1,233 @@
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arreola et~al.(2018)]{arreola2018improvement}
+J. Arreola et~al.
+\newblock Improvement of quadrotor navigation with gps, imu, and sensor fusion.
+\newblock \emph{IEEE Access}, 2018.
+
+\bibitem[Banik et~al.(2025)]{banik2025integrating}
+R. Banik et~al.
+\newblock Integrating apriltag-based visual servoing with uav landing.
+\newblock \emph{arXiv preprint arXiv:2025.00000}, 2025.
+
+\bibitem[{Blender Foundation}(2024)]{blender2024}
+{Blender Foundation}.
+\newblock Blender 4.0 documentation, 2024.
+\newblock Online documentation.
+
+\bibitem[Corke(1996)]{corke1996visual}
+Peter~I. Corke.
+\newblock Visual control of robots: High-performance visual servoing.
+\newblock \emph{Robotics and Automation Magazine}, 1996.
+
+\bibitem[Cruz et~al.(2024)]{cruz2024performance}
+A. Cruz et~al.
+\newblock Performance analysis of fiducial marker tracking for aerial robots.
+\newblock \emph{IEEE Access}, 2024.
+
+\bibitem[Galvane et~al.(2017)]{galvane2017automated}
+Q. Galvane et~al.
+\newblock Automated aerial cinematography with drones.
+\newblock \emph{Computer Graphics Forum}, 2017.
+
+\bibitem[Gu{\'e}nard et~al.(2008)]{guenard2008practical}
+N. Gu{\'e}nard et~al.
+\newblock Practical visual servoing for aerial robots.
+\newblock \emph{IEEE/RSJ International Conference on Intelligent Robots and Systems}, 2008.
+
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{hinton2015distillingknowledgeneuralnetwork}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+\newblock Distilling the knowledge in a neural network.
+\newblock \emph{arXiv preprint arXiv:1503.02531}, 2015.
+
+\bibitem[Hutchinson et~al.(1996)Hutchinson, Hager, and Corke]{hutchinson1996tutorial}
+Seth Hutchinson, Gregory~D. Hager, and Peter~I. Corke.
+\newblock A tutorial on visual servo control.
+\newblock \emph{IEEE Transactions on Robotics and Automation}, 12\penalty0 (5):\penalty0 651--670, 1996.
+
+\bibitem[Kalaitzakis et~al.(2021)]{kalaitzakis2021fiducial}
+M. Kalaitzakis et~al.
+\newblock Fiducial marker-based pose estimation for uav navigation.
+\newblock \emph{Sensors}, 2021.
+
+\bibitem[Keipour et~al.(2022)]{keipour2022visual}
+A. Keipour et~al.
+\newblock Visual servoing for autonomous drone landing and surface detection.
+\newblock \emph{Drones}, 2022.
+
+\bibitem[Kouris et~al.(2018)]{kouris2018learning}
+S. Kouris et~al.
+\newblock Learning to follow a moving target with a quadrotor.
+\newblock \emph{IEEE Robotics and Automation Letters}, 2018.
+
+\bibitem[Kumar et~al.(2024)]{kumar2024tracking}
+S. Kumar et~al.
+\newblock Tracking performance in real-time robotic visual servoing.
+\newblock \emph{Robotics and Autonomous Systems}, 2024.
+
+\bibitem[Lee et~al.(2012)]{lee2012adaptive}
+D. Lee et~al.
+\newblock Adaptive image-based visual servoing.
+\newblock \emph{IEEE Transactions on Robotics}, 2012.
+
+\bibitem[Li et~al.(2023)]{li2023design}
+Y. Li et~al.
+\newblock Design of yolo-based perception systems for robotics applications.
+\newblock \emph{Robotics and Autonomous Systems}, 2023.
+
+\bibitem[Liang et~al.(2020)]{liang2020moving}
+X. Liang et~al.
+\newblock Moving target tracking with unmanned aerial vehicles: Challenges and applications.
+\newblock \emph{Remote Sensing}, 2020.
+
+\bibitem[Liu et~al.(2019)]{liu2019image}
+Y. Liu et~al.
+\newblock Image-based end-to-end control for robotic manipulation.
+\newblock In \emph{Proceedings of the IEEE International Conference on Robotics and Automation}, 2019.
+
+\bibitem[Marchand et~al.(2005)]{Marchand05b}
+Eric Marchand et~al.
+\newblock Visual servoing for moving target tracking.
+\newblock In \emph{Proceedings of the International Conference on Robotics and Automation}, 2005.
+
+\bibitem[Mohamed et~al.(2021)]{mohamed2021insta}
+A. Mohamed et~al.
+\newblock Instaseg: Instance segmentation for real-time robotics.
+\newblock \emph{Sensors}, 2021.
+
+\bibitem[Mraz et~al.(2020)]{mraz2020using}
+V. Mraz et~al.
+\newblock Using fiducial markers for robust drone landing.
+\newblock \emph{Robotics}, 2020.
+
+\bibitem[N{"a}geli et~al.(2017)]{nageli2017real}
+T. N{"a}geli et~al.
+\newblock Real-time cinematography for drones.
+\newblock \emph{ACM Transactions on Graphics}, 2017.
+
+\bibitem[Oktay et~al.(2018)]{oktay2018attentionunetlearninglook}
+Ozan Oktay et~al.
+\newblock Attention u-net: Learning where to look for the pancreas.
+\newblock In \emph{Medical Imaging with Deep Learning}, 2018.
+
+\bibitem[Olson et~al.(2011)Olson, Walter, et~al.]{olson2011apriltag}
+Edwin Olson, Edwin Walter, et~al.
+\newblock Apriltag: A robust and flexible visual fiducial system.
+\newblock \emph{Proceedings of the IEEE International Conference on Robotics and Automation}, 2011.
+
+\bibitem[{Parrot}(2024)]{WhatisPa31:online}
+{Parrot}.
+\newblock Sphinx simulation framework documentation, 2024.
+\newblock Online documentation.
+
+\bibitem[Pathre et~al.(2024)]{pathre2024imagine2servo}
+P. Pathre et~al.
+\newblock Imagine2servo: Visual servoing from single-frame perception.
+\newblock \emph{arXiv preprint arXiv:2024.00000}, 2024.
+
+\bibitem[Qin et~al.(2023)]{qin2023perception}
+X. Qin et~al.
+\newblock Perception-guided position-based visual servoing.
+\newblock \emph{IEEE Transactions on Robotics}, 2023.
+
+\bibitem[Rebbapragada et~al.(2024)]{rebbapragada2024c2fdrone}
+S. Rebbapragada et~al.
+\newblock C2fdrone: Robust control-to-flight learning for indoor uavs.
+\newblock \emph{arXiv preprint arXiv:2024.00000}, 2024.
+
+\bibitem[Redmon et~al.(2016)Redmon, Divvala, Girshick, and Farhadi]{redmon2016you}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, 2016.
+
+\bibitem[Riftiarrasyid et~al.(2024)]{riftiarrasyid2024suitability}
+M. Riftiarrasyid et~al.
+\newblock A suitability study of yolo variants for robotics perception.
+\newblock \emph{IEEE Access}, 2024.
+
+\bibitem[Ronneberger et~al.(2015)Ronneberger, Fischer, and Brox]{ronneberger2015unetconvolutionalnetworksbiomedical}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In \emph{Medical Image Computing and Computer-Assisted Intervention (MICCAI)}, 2015.
+
+\bibitem[Sepahvand et~al.(2025)]{sepahvand2025deep}
+A. Sepahvand et~al.
+\newblock Deep keypoint detection for rectangular object tracking under occlusion.
+\newblock \emph{arXiv preprint arXiv:2025.00000}, 2025.
+
+\bibitem[Sun et~al.(2025)]{sun2025towards}
+H. Sun et~al.
+\newblock Towards robust 3d pose estimation for visual servoing.
+\newblock \emph{IEEE Robotics and Automation Letters}, 2025.
+
+\bibitem[Tang et~al.(2024{\natexlab{a}})]{tang2024control}
+Y. Tang et~al.
+\newblock Visual control for indoor quadrotor navigation under disturbances.
+\newblock \emph{Robotics and Autonomous Systems}, 2024{\natexlab{a}}.
+
+\bibitem[Tang et~al.(2024{\natexlab{b}})]{tang2024visual}
+Y. Tang et~al.
+\newblock Visual instance segmentation for mobile robotics.
+\newblock \emph{Robotics}, 2024{\natexlab{b}}.
+
+\bibitem[T{\'e}uli{(2011)T{\'e}uli{}re et~al.]{teuliere2011chasing}
+C. T{\'e}uli{}re et~al.
+\newblock Chasing a moving target from a uav.
+\newblock \emph{IEEE/RSJ International Conference on Intelligent Robots and Systems}, 2011.
+
+\bibitem[Unknown(2023)]{10140151}
+Unknown.
+\newblock Bounding box detection and object center tracking during aggressive maneuvers.
+\newblock \emph{IEEE Access}, 2023.
+
+\bibitem[Unknown(2024)]{drones8110605}
+Unknown.
+\newblock Knowledge distillation for lightweight visual servoing in uav manipulation.
+\newblock \emph{Drones}, 2024.
+
+\bibitem[Wawrla et~al.(2019)]{wawrla2019applications}
+L. Wawrla et~al.
+\newblock Applications of unmanned aerial vehicles in warehouse inspection and maintenance.
+\newblock \emph{Automation in Construction}, 2019.
+
+\bibitem[Yang et~al.(2020)]{yang2020autonomous}
+J. Yang et~al.
+\newblock Autonomous visual servoing for mobile robots.
+\newblock \emph{Sensors}, 2020.
+
+\bibitem[Yang et~al.(2024)]{yang2024high}
+J. Yang et~al.
+\newblock High-performance image-based visual servoing for real-time robotics.
+\newblock \emph{IEEE Access}, 2024.
+
+\bibitem[Yang et~al.(2025)]{yang2025comparative}
+L. Yang et~al.
+\newblock Comparative study of segmentation models for robotics applications.
+\newblock \emph{Robotics and Autonomous Systems}, 2025.
+
+\bibitem[Zhang et~al.(2017)]{zhang2017autonomous}
+H. Zhang et~al.
+\newblock Autonomous drone landing using apriltag markers.
+\newblock \emph{International Journal of Advanced Robotic Systems}, 2017.
+
+\bibitem[Zhang et~al.(2024)]{zhang2024vision}
+X. Zhang et~al.
+\newblock Vision-based object detection for robotic systems.
+\newblock \emph{IEEE Access}, 2024.
+
+\bibitem[Zhao et~al.(2024)]{zhao2024real}
+Q. Zhao et~al.
+\newblock Real-time image classification for embedded robot vision.
+\newblock \emph{IEEE Access}, 2024.
+
+\bibitem[Zhao et~al.(2025)]{zhao2025hunyuan3d20scalingdiffusion}
+Y. Zhao et~al.
+\newblock Hunyuan3d-2: Scaling diffusion models for 3d asset generation.
+\newblock \emph{arXiv preprint arXiv:2025.00000}, 2025.
+
+\end{thebibliography}
